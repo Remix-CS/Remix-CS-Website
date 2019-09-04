@@ -136,38 +136,38 @@ var Homepage = function Homepage() {
       lineNumber: 11
     },
     __self: this
-  }, "Our mission is to provide a platform for CS outreach to the greater Houston K-12 community to inspire future computer scientists of all backgrounds, specifically underrepresented minorities in CS."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+  }, "Our mission is to provide a platform for CS outreach to the greater Houston K-12 community to inspire future computer scientists of all backgrounds, specifically underrepresented minorities in CS. For more information about our work, please click ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://csweb.rice.edu/content/remixcs-offers-cs-training-local-high-school",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 13
     },
     __self: this
-  }, "Learn"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "here"), "."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: this
-  }, "Our curriculum is designed to teach foundational python programming skills, as well as provide an introduction to concepts fundamental to computer science as a whole."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+  }, "Learn"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 16
     },
     __self: this
-  }, "Explore"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Our curriculum is designed to teach foundational python programming skills, as well as provide an introduction to concepts fundamental to computer science as a whole."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
     },
     __self: this
-  }, "According to the bureau of labor statistics the number of jobs for software developers will increase by 30% by 2026. With knowledge of computer science, countless opportunities and doors will open for you. For more information about our work, please click ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://csweb.rice.edu/content/remixcs-offers-cs-training-local-high-school",
+  }, "Explore"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 20
     },
     __self: this
-  }, "here"), ".")));
+  }, "According to the bureau of labor statistics the number of jobs for software developers will increase by 30% by 2026. With knowledge of computer science, countless opportunities and doors will open for you.")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Homepage);

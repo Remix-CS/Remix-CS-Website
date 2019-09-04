@@ -27,3 +27,14 @@
 .remix-logo {
     margin: 3% 0 0 5%;
 }
+
+.bullets p a {
+    text-decoration: none;
+    color: #222D59;
+}
+
+.bullets p a:visited {
+    text-decoration: none;
+    color: #222D59;
+    opacity: 0.7;
+}

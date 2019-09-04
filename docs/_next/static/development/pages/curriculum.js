@@ -15714,7 +15714,7 @@ var Cirriculum = function Cirriculum() {
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /*!****************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fcurriculum&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CRemix-CS-Website%5Cpages%5Ccurriculum.js ***!
   \****************************************************************************************************************************************************************/
@@ -15737,5 +15737,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js","styles"]]]);
+},[[4,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=curriculum.js.map
