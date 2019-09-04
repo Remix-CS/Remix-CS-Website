@@ -1,0 +1,32 @@
+{
+  "name": "Remix-CS-Website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "export": "next export",
+    "deploy": "next build && next export -o docs && cd docs && touch CNAME && echo remixcs.rice.edu >> CNAME && touch .nojekyll && cd .. && git add ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Remix-CS/Remix-CS-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Remix-CS/Remix-CS-Website/issues"
+  },
+  "homepage": "https://github.com/Remix-CS/Remix-CS-Website#readme",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "rebass": "^3.1.1",
+    "styled-components": "^4.3.1",
+    "styled-jsx": "^3.2.1"
+  }
+}

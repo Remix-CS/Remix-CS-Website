@@ -1,0 +1,29 @@
+.home-page {
+    margin: 10% 0;
+}
+
+@media screen and (max-width: 800px) {
+    .home-page {
+        margin-top: 20%;
+    }
+}
+
+.bullets h1 {
+    font-weight: normal;
+    width: 50px;
+    border: solid #222D59;
+    border-width: 0 0 2px 0;
+    color: #222D59;
+    padding-bottom: 10px;
+    font-size: 2.2em;
+    margin: 10px 0;
+}
+
+.bullets p {
+    color: #99A1C1;
+    margin-left: 10px;
+}
+
+.remix-logo {
+    margin: 3% 0 0 5%;
+}

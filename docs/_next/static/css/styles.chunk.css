@@ -1,0 +1,332 @@
+@media screen and (min-width: 801px) {
+    .navbar-wrapper-hidden, .navbar-wrapper-visible {
+        width: 100%;
+        position: fixed;
+        background-color: #99A1C1;
+        box-shadow: 0 0 10px 1px #99A1C1;
+        top: 0;
+    }
+    .navbar {
+        float: right;
+        margin-top: 0%;
+        margin-right: 3%;
+        top: 0;
+        padding: 0;
+    }
+    .navbar-link {
+        display: inline-block;
+        margin: 20px 20px;
+        transition: 0.2s ease-in-out;
+    }
+    .navbar-link:hover .navbar-link-name {
+        color: #222D59;
+    }
+    .navbar-link-name {
+        font-size: 1.3em;
+        text-decoration: none;
+        color: #E3E9F4;
+        padding: 5px;
+        transition: 0.2s ease-in-out;
+    }
+    .mobile-header, .hide-navbar {
+        display: none;
+    }
+    .remix-name {
+        display: inline-block;
+        font-size: 1.4em;
+        margin-top: calc(0% + 20px);
+        margin-left: 20px;
+        color: #E3E9F4;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .navbar-wrapper-visible, .navbar-wrapper-hidden {
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        background-color: #99A1C1;
+        top: 0;
+        transition: 0.5s ease-in-out;
+    }
+    .navbar-wrapper-hidden {
+        right: 100%;
+    }
+    .navbar-wrapper-visible {
+        right: 0;
+    }
+    .navbar {
+        margin-top: 20%;
+        margin-right: 3%;
+    }
+    .navbar-link {
+        margin: 10% 20%;
+        transition: 0.2s ease-in-out;
+    }
+    .navbar-link:hover .navbar-link-name {
+        color: #222D59;
+    }
+    .navbar-link-name {
+        font-size: 2em;
+        text-decoration: none;
+        color: #E3E9F4;
+        padding: 5px;
+        transition: 0.2s ease-in-out;
+    }
+    .show-navbar {
+        margin: 2%;
+    }
+    .hide-navbar {
+        margin: 5%;
+        top: 0;
+        right: 0;
+        position: absolute;
+    }
+    .mobile-header {
+        position: fixed;
+        top: 0;
+        display: flex;
+        flex-direction: row;
+        background-color: #99A1C1;
+        box-shadow: 0 0 5px 1px #99A1C1;
+        width: 100%;
+    }
+    .mobile-header p {
+        color: #E3E9F4;
+        font-size: 1.8em;
+        margin: 1% 10px;
+        text-align: center;
+    }
+    .remix-name {
+        display: none;
+    }
+}
+.home-page {
+    margin: 10% 0;
+}
+
+@media screen and (max-width: 800px) {
+    .home-page {
+        margin-top: 20%;
+    }
+}
+
+.bullets h1 {
+    font-weight: normal;
+    width: 50px;
+    border: solid #222D59;
+    border-width: 0 0 2px 0;
+    color: #222D59;
+    padding-bottom: 10px;
+    font-size: 2.2em;
+    margin: 10px 0;
+}
+
+.bullets p {
+    color: #99A1C1;
+    margin-left: 10px;
+}
+
+.remix-logo {
+    margin: 3% 0 0 5%;
+}
+.cirriculum-page {
+    margin: 10%;
+}
+
+@media screen and (max-width: 800px) {
+    .cirriculum-page {
+        margin-top: 20%;
+    }
+}
+
+.module {
+    box-shadow: 0 0 20px 1px #99A1C1;
+    padding: 10px 20px;
+    margin: 40px;
+}
+
+.module h1 {
+    margin: 5px;
+    font-weight: normal;
+    color: #222D59;
+}
+
+.module a {
+    color: #99A1C1;
+    font-weight: normal;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+
+.module a h3 {
+    font-weight: normal;
+    margin-left: 30px;
+}
+
+.module a:hover {
+    color: #222D59;
+}
+
+.partnerships-page {
+    margin: 10% 0;
+}
+
+.partnerships {
+    box-shadow: 0 0 20px 1px #99A1C1;
+    padding: 20px;
+    margin: 40px;
+}
+
+@media screen and (min-width: 801px) {
+    .partnerships-info {
+        margin-left: 20px;
+    }
+    .partnerships h1 {
+        color: #222D59;
+        font-weight: normal;
+        margin: 5px;
+    }
+    .partnerships h3 {
+        color: #99A1C1;
+        font-weight: normal;
+        margin: 8px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .partnerships-page {
+        margin-top: 20%;
+    }
+    .partnerships h1 {
+        color: #222D59;
+        font-weight: normal;
+        margin: 5px;
+        text-align: center;
+    }
+    .partnerships h3 {
+        color: #99A1C1;
+        font-weight: normal;
+        margin: 8px;
+        text-align: center;
+    }
+}
+
+.partnerships-info a {
+    text-decoration: none;
+}
+
+.partnerships-info a h3 {
+    transition: 0.3s ease-in-out;
+}
+
+.partnerships-info a:hover h3 {
+    transform: translate(10px);
+}
+.resources-page {
+    margin: 10% auto;
+}
+
+@media screen and (max-width: 800px) {
+    .resources-page {
+        margin-top: 20%;
+    }
+}
+.resources-page h1 {
+    font-weight: normal;
+    color: #222D59;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5px;
+}
+
+.links {
+    text-align: center;
+}
+
+.resources-page a {
+    color: #99A1C1;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.2s ease-in-out;
+    display: inline-block;
+}
+
+.resources-page a h3 {
+    font-weight: normal;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 10px;
+    box-shadow: 0 0 20px 1px #99A1C1;
+}
+
+.resources-page a:hover {
+    color: #222D59;
+}
+.contact-page {
+    margin: 10% 0;
+}
+
+.contact {
+    box-shadow: 0 0 20px 1px #99A1C1;
+    padding: 20px;
+    margin: 40px;
+    transition: 0.3s ease-in-out;
+}
+
+@media screen and (min-width: 801px) {
+    .contact-bio {
+        margin-left: 20px;
+    }
+    .contact h1 {
+        color: #222D59;
+        font-weight: normal;
+        margin: 5px;
+    }
+    .contact h3 {
+        color: #99A1C1;
+        font-weight: normal;
+        margin: 8px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .contact-page {
+        margin-top: 20%;
+    }
+    .contact h1 {
+        color: #222D59;
+        font-weight: normal;
+        margin: 5px;
+        text-align: center;
+    }
+    .contact h3 {
+        color: #99A1C1;
+        font-weight: normal;
+        margin: 8px;
+        text-align: center;
+    }
+}
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #E3E9F4;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 10%;
+}
+
+/*# sourceMappingURL=styles.chunk.css.map*/

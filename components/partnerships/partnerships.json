@@ -1,0 +1,16 @@
+{
+    "partners": [
+        {
+            "name": "Kipp Sunnyside",
+            "website": "https://www.kipp.org/school/kipp-sunnyside-high-school/",
+            "start": "Partner since 2018",
+            "picture": "../../static/kipp.png"
+        },
+        {
+            "name": "Worthing High School",
+            "website": "https://www.houstonisd.org/worthing",
+            "start": "Partner since 2019",
+            "picture": "../../static/worthing.png"
+        }
+    ]
+}

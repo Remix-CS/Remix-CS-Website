@@ -1,0 +1,28 @@
+{
+    "modules": [
+        {
+            "name": "Intro to CS & Fundamental Types",
+            "presentation": "/static/cirriculum/Intro+FundamentalTypes.pdf"
+        },
+        {
+            "name": "Variables",
+            "presentation": "/static/cirriculum/Variables.pdf"
+        },
+        {
+            "name": "Booleans",
+            "presentation": "/static/cirriculum/Booleans.pdf"
+        },
+        {
+            "name": "Conditionals",
+            "presentation": "/static/cirriculum/Conditionals.pdf"
+        },
+        {
+            "name": "Lists",
+            "presentation": "/static/cirriculum/Lists.pdf"
+        },
+        {
+            "name": "Iteration & Loops",
+            "presentation": "/static/cirriculum/Iteration.pdf"
+        }
+    ]
+}

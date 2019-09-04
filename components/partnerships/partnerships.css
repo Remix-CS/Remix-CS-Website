@@ -1,0 +1,56 @@
+.partnerships-page {
+    margin: 10% 0;
+}
+
+.partnerships {
+    box-shadow: 0 0 20px 1px #99A1C1;
+    padding: 20px;
+    margin: 40px;
+}
+
+@media screen and (min-width: 801px) {
+    .partnerships-info {
+        margin-left: 20px;
+    }
+    .partnerships h1 {
+        color: #222D59;
+        font-weight: normal;
+        margin: 5px;
+    }
+    .partnerships h3 {
+        color: #99A1C1;
+        font-weight: normal;
+        margin: 8px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .partnerships-page {
+        margin-top: 20%;
+    }
+    .partnerships h1 {
+        color: #222D59;
+        font-weight: normal;
+        margin: 5px;
+        text-align: center;
+    }
+    .partnerships h3 {
+        color: #99A1C1;
+        font-weight: normal;
+        margin: 8px;
+        text-align: center;
+    }
+}
+
+.partnerships-info a {
+    text-decoration: none;
+}
+
+.partnerships-info a h3 {
+    transition: 0.3s ease-in-out;
+}
+
+.partnerships-info a:hover h3 {
+    transform: translate(10px);
+}
