@@ -41,6 +41,7 @@ var Contact = function Contact() {
       width: [0.8, 0.7, 0.6, 0.5],
       ml: "auto",
       mr: "auto",
+      mt: 40,
       className: "contact",
       key: name,
       __source: {
@@ -119,7 +120,7 @@ var Contact = function Contact() {
 /*! exports provided: leadership, default */
 /***/ (function(module) {
 
-module.exports = {"leadership":[{"name":"Gabby Jackson","position":"Teaching Committee Head","email":"gej3@rice.edu","year":"2020","picture":"/static/gej3.png"},{"name":"Patrick Brady","position":"Teaching Committee Head","email":"pjb3@rice.edu","year":"2020","picture":"/static/pjb3.png"},{"name":"Grace Tan","position":"Community Engagement Head","email":"gzt1@rice.edu","year":"2021","picture":"/static/gzt1.png"},{"name":"Valerie Hellmer","position":"Community Engagement Head","email":"vah3@rice.edu","year":"2021","picture":"/static/vah3.png"},{"name":"Samra Belachew","position":"Curriculum Committee Head","email":"sdb13@rice.edu","year":"2020","picture":"/static/sdb13.png"},{"name":"Nicholas Meisburger","position":"Curriculum Committee Head","email":"ncm5@rice.edu","year":"2022","picture":"/static/ncm5.jpg"},{"name":"Prashanth Pai","position":"Community Engagement","email":"pbp2@rice.edu","year":"2022","picture":"/static/pbp2.png"},{"name":"Raul Palomo","position":"Teaching Committee & Curriculum Committee Liaison","email":"rrp10@rice.edu","year":"2020","picture":"/static/rrp10.JPG"},{"name":"Dhananjay Singh","position":"Community Engagement","email":"dv17@rice.edu","year":"2022","picture":"/static/computer.jpg"}]};
+module.exports = {"leadership":[{"name":"Gabby Jackson","position":"Teaching Committee Head","email":"gej3@rice.edu","year":"2020","picture":"/static/gej3.png"},{"name":"Patrick Brady","position":"Teaching Committee Head","email":"pjb3@rice.edu","year":"2020","picture":"/static/pjb3.png"},{"name":"Grace Tan","position":"Community Engagement Head","email":"gzt1@rice.edu","year":"2021","picture":"/static/gzt1.png"},{"name":"Valerie Hellmer","position":"Community Engagement Head","email":"vah3@rice.edu","year":"2021","picture":"/static/vah3.png"},{"name":"Samra Belachew","position":"Curriculum Committee Head","email":"sdb13@rice.edu","year":"2020","picture":"/static/sdb13.png"},{"name":"Nicholas Meisburger","position":"Curriculum Committee Head","email":"ncm5@rice.edu","year":"2022","picture":"/static/ncm5.jpg"},{"name":"Raul Palomo","position":"Teaching Committee & Curriculum Committee Liaison","email":"rrp10@rice.edu","year":"2020","picture":"/static/rrp10.JPG"},{"name":"Prashanth Pai","position":"Community Engagement","email":"pbp2@rice.edu","year":"2022","picture":"/static/pbp2.png"}]};
 
 /***/ }),
 
@@ -15603,7 +15604,7 @@ var Contact = function Contact() {
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /*!**********************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fcontact&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CRemix-CS-Website%5Cpages%5Ccontact.js ***!
   \**********************************************************************************************************************************************************/
@@ -15626,5 +15627,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js","styles"]]]);
+},[[4,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=contact.js.map

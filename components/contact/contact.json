@@ -43,13 +43,6 @@
             "picture": "/static/ncm5.jpg"
         },
         {
-            "name": "Prashanth Pai",
-            "position": "Community Engagement",
-            "email": "pbp2@rice.edu",
-            "year": "2022",
-            "picture": "/static/pbp2.png"
-        },
-        {
             "name": "Raul Palomo",
             "position": "Teaching Committee & Curriculum Committee Liaison",
             "email": "rrp10@rice.edu",
@@ -57,11 +50,11 @@
             "picture": "/static/rrp10.JPG"
         },
         {
-            "name": "Dhananjay Singh",
+            "name": "Prashanth Pai",
             "position": "Community Engagement",
-            "email": "dv17@rice.edu",
+            "email": "pbp2@rice.edu",
             "year": "2022",
-            "picture": "/static/computer.jpg"
+            "picture": "/static/pbp2.png"
         }
     ]
 }

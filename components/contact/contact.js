@@ -6,7 +6,7 @@ const Contact = () => (
     <div className='contact-page'>
         {
             leadership.map(({ name, position, email, picture, year }) => (
-                <Box width={[0.8, 0.7, 0.6, 0.5]} ml='auto' mr='auto' className='contact' key={name}>
+                <Box width={[0.8, 0.7, 0.6, 0.5]} ml='auto' mr='auto' mt={40} className='contact' key={name}>
                     <Flex flexDirection='row' flexWrap='wrap' justifyContent='center'>
                         <Box width={[0.8, 0.3]}>
                             <Image src={picture} alt="" />

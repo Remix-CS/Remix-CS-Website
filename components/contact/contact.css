@@ -5,8 +5,6 @@
 .contact {
     box-shadow: 0 0 20px 1px #99A1C1;
     padding: 20px;
-    margin: 40px;
-    transition: 0.3s ease-in-out;
 }
 
 @media screen and (min-width: 801px) {
@@ -17,6 +15,7 @@
         color: #222D59;
         font-weight: normal;
         margin: 5px;
+        margin-left: 20px;
     }
     .contact h3 {
         color: #99A1C1;
