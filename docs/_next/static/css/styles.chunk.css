@@ -142,50 +142,43 @@
     color: #222D59;
     opacity: 0.7;
 }
-.contact-page {
-    margin: 10% 0;
-}
-
-.contact {
-    box-shadow: 0 0 20px 1px #99A1C1;
-    padding: 20px;
-}
-
-@media screen and (min-width: 801px) {
-    .contact-bio {
-        margin-left: 20px;
-    }
-    .contact h1 {
-        color: #222D59;
-        font-weight: normal;
-        margin: 5px;
-        margin-left: 20px;
-    }
-    .contact h3 {
-        color: #99A1C1;
-        font-weight: normal;
-        margin: 8px;
-        margin-left: 20px;
-    }
+.cirriculum-page {
+    margin: 10%;
 }
 
 @media screen and (max-width: 800px) {
-    .contact-page {
+    .cirriculum-page {
         margin-top: 20%;
     }
-    .contact h1 {
-        color: #222D59;
-        font-weight: normal;
-        margin: 5px;
-        text-align: center;
-    }
-    .contact h3 {
-        color: #99A1C1;
-        font-weight: normal;
-        margin: 8px;
-        text-align: center;
-    }
 }
+
+.module {
+    box-shadow: 0 0 20px 1px #99A1C1;
+    padding: 10px 20px;
+}
+
+.module h1 {
+    margin: 5px;
+    font-weight: normal;
+    color: #222D59;
+}
+
+.module a {
+    color: #99A1C1;
+    font-weight: normal;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+
+.module a h3 {
+    font-weight: normal;
+    margin-left: 30px;
+}
+
+.module a:hover {
+    color: #222D59;
+}
+
 html {
     margin: 0;
     padding: 0;
