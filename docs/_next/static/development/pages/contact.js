@@ -1,20 +1,9 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\curriculum.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\contact.js"],{
 
-/***/ "./components/cirriculum/cirriculum.json":
-/*!***********************************************!*\
-  !*** ./components/cirriculum/cirriculum.json ***!
-  \***********************************************/
-/*! exports provided: modules, default */
-/***/ (function(module) {
-
-module.exports = {"modules":[{"name":"Intro to CS & Fundamental Types","presentation":"/static/cirriculum/Intro+FundamentalTypes.pdf"},{"name":"Variables","presentation":"/static/cirriculum/Variables.pdf"},{"name":"Booleans","presentation":"/static/cirriculum/Booleans.pdf"},{"name":"Conditionals","presentation":"/static/cirriculum/Conditionals.pdf"},{"name":"Lists","presentation":"/static/cirriculum/Lists.pdf"},{"name":"Iteration & Loops","presentation":"/static/cirriculum/Iteration.pdf"}]};
-
-/***/ }),
-
-/***/ "./components/cirriculum/curriculum.js":
-/*!*********************************************!*\
-  !*** ./components/cirriculum/curriculum.js ***!
-  \*********************************************/
+/***/ "./components/contact/contact.js":
+/*!***************************************!*\
+  !*** ./components/contact/contact.js ***!
+  \***************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -22,69 +11,116 @@ module.exports = {"modules":[{"name":"Intro to CS & Fundamental Types","presenta
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _cirriculum_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./cirriculum.css */ "./components/cirriculum/cirriculum.css");
-/* harmony import */ var _cirriculum_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_cirriculum_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.js");
-/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _cirriculum_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./cirriculum.json */ "./components/cirriculum/cirriculum.json");
-var _cirriculum_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./cirriculum.json */ "./components/cirriculum/cirriculum.json", 1);
-var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\Remix-CS-Website\\components\\cirriculum\\curriculum.js";
+/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.js");
+/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _contact_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./contact.css */ "./components/contact/contact.css");
+/* harmony import */ var _contact_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_contact_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _contact_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./contact.json */ "./components/contact/contact.json");
+var _contact_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./contact.json */ "./components/contact/contact.json", 1);
+var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\Remix-CS-Website\\components\\contact\\contact.js";
 
 
 
 
 
-var Curriculum = function Curriculum() {
-  var module_components = [];
-
-  for (var i = 0; i < _cirriculum_json__WEBPACK_IMPORTED_MODULE_3__["modules"].length; i++) {
-    module_components.push(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
-      className: "module",
-      width: [1, 0.8, 0.6, 0.6],
+var Contact = function Contact() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "contact-page",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, _contact_json__WEBPACK_IMPORTED_MODULE_3__["leadership"].map(function (_ref) {
+    var name = _ref.name,
+        position = _ref.position,
+        email = _ref.email,
+        picture = _ref.picture,
+        year = _ref.year;
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+      width: [0.8, 0.7, 0.6, 0.5],
       ml: "auto",
       mr: "auto",
-      key: _cirriculum_json__WEBPACK_IMPORTED_MODULE_3__["modules"][i].name,
-      mt: 30,
+      mt: 40,
+      className: "contact",
+      key: name,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 9
       },
       __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
+      flexDirection: "row",
+      flexWrap: "wrap",
+      justifyContent: "center",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 10
       },
       __self: this
-    }, "".concat(i + 1, ". ") + _cirriculum_json__WEBPACK_IMPORTED_MODULE_3__["modules"][i].name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-      href: _cirriculum_json__WEBPACK_IMPORTED_MODULE_3__["modules"][i].presentation,
-      target: "_blank",
-      rel: "noopener noreferrer",
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+      width: [0.8, 0.3],
       __source: {
         fileName: _jsxFileName,
         lineNumber: 11
       },
       __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
+      src: picture,
+      alt: "",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 11
+        lineNumber: 12
       },
       __self: this
-    }, "View the Lesson"))));
-  }
-
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "cirriculum-page",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, module_components);
+    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+      width: [0.8, 0.6],
+      className: "contact-bio",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 14
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 15
+      },
+      __self: this
+    }, name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16
+      },
+      __self: this
+    }, position), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 17
+      },
+      __self: this
+    }, email), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18
+      },
+      __self: this
+    }, year))));
+  }));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Curriculum);
+/* harmony default export */ __webpack_exports__["default"] = (Contact);
+
+/***/ }),
+
+/***/ "./components/contact/contact.json":
+/*!*****************************************!*\
+  !*** ./components/contact/contact.json ***!
+  \*****************************************/
+/*! exports provided: leadership, default */
+/***/ (function(module) {
+
+module.exports = {"leadership":[{"name":"Gabby Jackson","position":"Teaching Committee Head","email":"gej3@rice.edu","year":"2020","picture":"/static/gej3.png"},{"name":"Patrick Brady","position":"Teaching Committee Head","email":"pjb3@rice.edu","year":"2020","picture":"/static/pjb3.png"},{"name":"Grace Tan","position":"Community Engagement Head","email":"gzt1@rice.edu","year":"2021","picture":"/static/gzt1.png"},{"name":"Valerie Hellmer","position":"Community Engagement Head","email":"vah3@rice.edu","year":"2021","picture":"/static/vah3.png"},{"name":"Samra Belachew","position":"Curriculum Committee Head","email":"sdb13@rice.edu","year":"2020","picture":"/static/sdb13.png"},{"name":"Nicholas Meisburger","position":"Curriculum Committee Head","email":"ncm5@rice.edu","year":"2022","picture":"/static/ncm5.jpg"},{"name":"Raul Palomo","position":"Teaching Committee & Curriculum Committee Liaison","email":"rrp10@rice.edu","year":"2020","picture":"/static/rrp10.JPG"},{"name":"Prashanth Pai","position":"Community Engagement","email":"pbp2@rice.edu","year":"2022","picture":"/static/pbp2.png"}]};
 
 /***/ }),
 
@@ -8117,21 +8153,21 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcurriculum&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CRemix-CS-Website%5Cpages%5Ccurriculum.js!./":
-/*!************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcurriculum&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CRemix-CS-Website%5Cpages%5Ccurriculum.js ***!
-  \************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcontact&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CRemix-CS-Website%5Cpages%5Ccontact.js!./":
+/*!******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcontact&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CRemix-CS-Website%5Cpages%5Ccontact.js ***!
+  \******************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/curriculum", function() {
-      var page = __webpack_require__(/*! ./pages/curriculum.js */ "./pages/curriculum.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/contact", function() {
+      var page = __webpack_require__(/*! ./pages/contact.js */ "./pages/contact.js")
       if(true) {
-        module.hot.accept(/*! ./pages/curriculum.js */ "./pages/curriculum.js", function() {
-          if(!next.router.components["/curriculum"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/curriculum.js */ "./pages/curriculum.js")
-          next.router.update("/curriculum", updatedPage.default || updatedPage)
+        module.hot.accept(/*! ./pages/contact.js */ "./pages/contact.js", function() {
+          if(!next.router.components["/contact"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/contact.js */ "./pages/contact.js")
+          next.router.update("/contact", updatedPage.default || updatedPage)
         })
       }
       return { page: page.default || page }
@@ -15513,10 +15549,10 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/curriculum.js":
-/*!*****************************!*\
-  !*** ./pages/curriculum.js ***!
-  \*****************************/
+/***/ "./pages/contact.js":
+/*!**************************!*\
+  !*** ./pages/contact.js ***!
+  \**************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -15526,17 +15562,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/header */ "./components/header.js");
 /* harmony import */ var _components_navbar_navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/navbar/navbar */ "./components/navbar/navbar.js");
-/* harmony import */ var _components_cirriculum_curriculum__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/cirriculum/curriculum */ "./components/cirriculum/curriculum.js");
+/* harmony import */ var _components_contact_contact__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/contact/contact */ "./components/contact/contact.js");
 /* harmony import */ var _page_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./page.css */ "./pages/page.css");
 /* harmony import */ var _page_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_page_css__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\Remix-CS-Website\\pages\\curriculum.js";
+var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\Remix-CS-Website\\pages\\contact.js";
 
 
 
 
 
 
-var Cirriculum = function Cirriculum() {
+var Contact = function Contact() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
@@ -15555,7 +15591,7 @@ var Cirriculum = function Cirriculum() {
       lineNumber: 9
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_cirriculum_curriculum__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_contact_contact__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
@@ -15564,18 +15600,18 @@ var Cirriculum = function Cirriculum() {
   }));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Cirriculum);
+/* harmony default export */ __webpack_exports__["default"] = (Contact);
 
 /***/ }),
 
-/***/ 11:
-/*!****************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fcurriculum&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CRemix-CS-Website%5Cpages%5Ccurriculum.js ***!
-  \****************************************************************************************************************************************************************/
+/***/ 9:
+/*!**********************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fcontact&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CRemix-CS-Website%5Cpages%5Ccontact.js ***!
+  \**********************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fcurriculum&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CRemix-CS-Website%5Cpages%5Ccurriculum.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcurriculum&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CRemix-CS-Website%5Cpages%5Ccurriculum.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fcontact&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CRemix-CS-Website%5Cpages%5Ccontact.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcontact&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CRemix-CS-Website%5Cpages%5Ccontact.js!./");
 
 
 /***/ }),
@@ -15591,5 +15627,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[11,"static/runtime/webpack.js","styles"]]]);
-//# sourceMappingURL=curriculum.js.map
+},[[9,"static/runtime/webpack.js","styles"]]]);
+//# sourceMappingURL=contact.js.map

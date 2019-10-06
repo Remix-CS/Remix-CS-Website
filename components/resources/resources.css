@@ -1,5 +1,6 @@
 .resources-page {
-    margin: 10% auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 @media screen and (max-width: 800px) {

@@ -6,7 +6,7 @@ const Partnerships = () => (
     <div className='partnerships-page'>
         {
             partners.map(({ name, website, start, picture }) => (
-                <Box width={[0.8, 0.7, 0.6, 0.5]} ml='auto' mr='auto' className='partnerships' key={name}>
+                <Box width={[0.8, 0.7, 0.6, 0.5]} ml='auto' mr='auto' mt={40} className='partnerships' key={name}>
                     <Flex flexDirection='row' flexWrap='wrap' justifyContent='center'>
                         <Box width={[0.8, 0.2]}>
                             <Image src={picture} alt="" />

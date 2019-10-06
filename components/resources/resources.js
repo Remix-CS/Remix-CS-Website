@@ -2,7 +2,7 @@ import { Box } from 'rebass';
 import './resources.css';
 
 const Resources = () => (
-    <Box className='resources-page' width={[0.9, 0.8, 0.7, 0.6]}>
+    <Box className='resources-page' width={[0.9, 0.8, 0.7, 0.6]} ml='auto' mr='auto'>
         <h1>For More Practice Check out these Python Courses</h1>
         <div className='links'>
             <a href='https://www.codecademy.com/learn/learn-python-3'><h3>Codecademy Python Course</h3></a>
