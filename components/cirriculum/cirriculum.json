@@ -5,8 +5,8 @@
             "presentation": "/static/cirriculum/Intro+FundamentalTypes.pdf"
         },
         {
-            "name": "Variables",
-            "presentation": "/static/cirriculum/Variables.pdf"
+            "name": "Variables & Arithmetic",
+            "presentation": "/static/cirriculum/Variables+Arithmetic.pdf"
         },
         {
             "name": "Booleans",
