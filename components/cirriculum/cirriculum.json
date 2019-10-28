@@ -9,6 +9,10 @@
             "presentation": "/static/cirriculum/Variables+Arithmetic.pdf"
         },
         {
+            "name": "Functions",
+            "presentation": "/static/cirriculum/Functions.pdf"
+        },
+        {
             "name": "Booleans",
             "presentation": "/static/cirriculum/Booleans.pdf"
         },

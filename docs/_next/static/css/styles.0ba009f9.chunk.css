@@ -1,0 +1,220 @@
+.contact-page {
+    margin: 10% 0;
+}
+
+.contact {
+    box-shadow: 0 0 20px 1px #99A1C1;
+    padding: 20px;
+}
+
+@media screen and (min-width: 801px) {
+    .contact-bio {
+        margin-left: 20px;
+    }
+    .contact h1 {
+        color: #222D59;
+        font-weight: normal;
+        margin: 5px;
+        margin-left: 20px;
+    }
+    .contact h3 {
+        color: #99A1C1;
+        font-weight: normal;
+        margin: 8px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .contact-page {
+        margin-top: 20%;
+    }
+    .contact h1 {
+        color: #222D59;
+        font-weight: normal;
+        margin: 5px;
+        text-align: center;
+    }
+    .contact h3 {
+        color: #99A1C1;
+        font-weight: normal;
+        margin: 8px;
+        text-align: center;
+    }
+}
+.home-page {
+    margin: 10% 0;
+}
+
+@media screen and (max-width: 800px) {
+    .home-page {
+        margin-top: 20%;
+    }
+}
+
+.bullets h1 {
+    font-weight: normal;
+    width: 50px;
+    border: solid #222D59;
+    border-width: 0 0 2px 0;
+    color: #222D59;
+    padding-bottom: 10px;
+    font-size: 2.2em;
+    margin: 10px 0;
+}
+
+.bullets p {
+    color: #99A1C1;
+    margin-left: 10px;
+}
+
+.remix-logo {
+    margin: 3% 0 0 5%;
+}
+
+.bullets p a {
+    text-decoration: none;
+    color: #222D59;
+}
+
+.bullets p a:visited {
+    text-decoration: none;
+    color: #222D59;
+    opacity: 0.7;
+}
+.cirriculum-page {
+    margin: 10%;
+}
+
+@media screen and (max-width: 800px) {
+    .cirriculum-page {
+        margin-top: 20%;
+    }
+}
+
+.module {
+    box-shadow: 0 0 20px 1px #99A1C1;
+    padding: 10px 20px;
+}
+
+.module h1 {
+    margin: 5px;
+    font-weight: normal;
+    color: #222D59;
+}
+
+.module a {
+    color: #99A1C1;
+    font-weight: normal;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+
+.module a h3 {
+    font-weight: normal;
+    margin-left: 30px;
+}
+
+.module a:hover {
+    color: #222D59;
+}
+
+.partnerships-page {
+    margin: 10% 0;
+}
+
+.partnerships {
+    box-shadow: 0 0 20px 1px #99A1C1;
+    padding: 20px;
+    margin: 40px;
+}
+
+@media screen and (min-width: 801px) {
+    .partnerships-info {
+        margin-left: 20px;
+    }
+    .partnerships h1 {
+        color: #222D59;
+        font-weight: normal;
+        margin: 5px;
+    }
+    .partnerships h3 {
+        color: #99A1C1;
+        font-weight: normal;
+        margin: 8px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .partnerships-page {
+        margin-top: 20%;
+    }
+    .partnerships h1 {
+        color: #222D59;
+        font-weight: normal;
+        margin: 5px;
+        text-align: center;
+    }
+    .partnerships h3 {
+        color: #99A1C1;
+        font-weight: normal;
+        margin: 8px;
+        text-align: center;
+    }
+}
+
+.partnerships-info a {
+    text-decoration: none;
+}
+
+.partnerships-info a h3 {
+    transition: 0.3s ease-in-out;
+}
+
+.partnerships-info a:hover h3 {
+    transform: translate(10px);
+}
+.resources-page {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+@media screen and (max-width: 800px) {
+    .resources-page {
+        margin-top: 20%;
+    }
+}
+.resources-page h1 {
+    font-weight: normal;
+    color: #222D59;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5px;
+}
+
+.links {
+    text-align: center;
+}
+
+.resources-page a {
+    color: #99A1C1;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.2s ease-in-out;
+    display: inline-block;
+}
+
+.resources-page a h3 {
+    font-weight: normal;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 10px;
+    box-shadow: 0 0 20px 1px #99A1C1;
+}
+
+.resources-page a:hover {
+    color: #222D59;
+}
