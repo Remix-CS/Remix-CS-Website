@@ -1,0 +1,47 @@
+.mentorship-page {
+    padding-top: 10%;
+    padding-bottom: 2%;
+}
+
+@media screen and (max-width: 800px) {
+    .mentorship-page {
+        margin-top: 20%;
+    }
+}
+.mentorship-page h1 {
+    font-weight: normal;
+    color: #222D59;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5px;
+}
+
+.mentorship-page h2 {
+    font-weight: normal;
+    color: #222D59;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5px;
+}
+
+.mentorship-description {
+    font-weight: normal;
+    color: #222D59;
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5px;
+    margin-bottom: 40px;
+}
+
+.mentorship-img {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
