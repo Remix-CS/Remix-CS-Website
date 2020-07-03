@@ -7,7 +7,7 @@
 /*! exports provided: modules, default */
 /***/ (function(module) {
 
-module.exports = {"modules":[{"name":"Intro to CS & Fundamental Types","presentation":"/static/cirriculum/Intro+FundamentalTypes.pdf"},{"name":"Variables","presentation":"/static/cirriculum/Variables.pdf"},{"name":"Booleans","presentation":"/static/cirriculum/Booleans.pdf"},{"name":"Conditionals","presentation":"/static/cirriculum/Conditionals.pdf"},{"name":"Lists","presentation":"/static/cirriculum/Lists.pdf"},{"name":"Iteration & Loops","presentation":"/static/cirriculum/Iteration.pdf"}]};
+module.exports = {"modules":[{"name":"Intro to CS & Fundamental Types","presentation":"/static/cirriculum/Intro+FundamentalTypes.pdf"},{"name":"Variables & Arithmetic","presentation":"/static/cirriculum/Variables+Arithmetic.pdf"},{"name":"Functions","presentation":"/static/cirriculum/Functions.pdf"},{"name":"Booleans","presentation":"/static/cirriculum/Booleans.pdf"},{"name":"Conditionals","presentation":"/static/cirriculum/Conditionals.pdf"},{"name":"Lists","presentation":"/static/cirriculum/Lists.pdf"},{"name":"Iteration & Loops","presentation":"/static/cirriculum/Iteration.pdf"}]};
 
 /***/ }),
 
@@ -339,7 +339,7 @@ function (_react$Component) {
 /*! exports provided: navbarItems, default */
 /***/ (function(module) {
 
-module.exports = {"navbarItems":[{"name":"Home","link":"/"},{"name":"Curriculum","link":"/curriculum"},{"name":"Partnerships","link":"/partnerships"},{"name":"Resources","link":"/resources"},{"name":"Contact","link":"/contact"}]};
+module.exports = {"navbarItems":[{"name":"Home","link":"/"},{"name":"Mentorship","link":"/mentorship"},{"name":"Curriculum","link":"/curriculum"},{"name":"Partnerships","link":"/partnerships"},{"name":"Resources","link":"/resources"},{"name":"Contact","link":"/contact"}]};
 
 /***/ }),
 
@@ -15568,7 +15568,7 @@ var Cirriculum = function Cirriculum() {
 
 /***/ }),
 
-/***/ 11:
+/***/ 5:
 /*!****************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fcurriculum&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CRemix-CS-Website%5Cpages%5Ccurriculum.js ***!
   \****************************************************************************************************************************************************************/
@@ -15591,5 +15591,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[11,"static/runtime/webpack.js","styles"]]]);
+},[[5,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=curriculum.js.map

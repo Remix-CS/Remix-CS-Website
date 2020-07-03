@@ -357,7 +357,7 @@ function (_react$Component) {
 /*! exports provided: navbarItems, default */
 /***/ (function(module) {
 
-module.exports = {"navbarItems":[{"name":"Home","link":"/"},{"name":"Curriculum","link":"/curriculum"},{"name":"Partnerships","link":"/partnerships"},{"name":"Resources","link":"/resources"},{"name":"Contact","link":"/contact"}]};
+module.exports = {"navbarItems":[{"name":"Home","link":"/"},{"name":"Mentorship","link":"/mentorship"},{"name":"Curriculum","link":"/curriculum"},{"name":"Partnerships","link":"/partnerships"},{"name":"Resources","link":"/resources"},{"name":"Contact","link":"/contact"}]};
 
 /***/ }),
 
@@ -15586,7 +15586,7 @@ var Home = function Home() {
 
 /***/ }),
 
-/***/ 0:
+/***/ 11:
 /*!*************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CRemix-CS-Website%5Cpages%5Cindex.js ***!
   \*************************************************************************************************************************************************/
@@ -15609,5 +15609,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[11,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

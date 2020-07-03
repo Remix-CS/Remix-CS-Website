@@ -1,13 +1,13 @@
 import React from 'react';
-import { Box, Container, } from '@material-ui/core';
+import { Box } from 'rebass';
 import './mentorship.css';
 
 export default function Mentorship() {
 
     return (
-        <Container>
+        <Box>
             {/* Title */}
-            <Box className='mentorship-page'>
+            <Box className='mentorship-page' mt={30}>
                 <h1>Summer Pilot Program</h1>
                 <h2>July 20 - August 17</h2>
 
@@ -19,14 +19,23 @@ export default function Mentorship() {
                     groups and paired with a Rice Computer Science student who will serve
                     as a mentor for 4 weeks. Students and mentors will
                     meet for 1 hour per week in a remote setting. Based on your schedule,
-                    we will schedule a time that works for you and your mentor. Please fill out 
-                 <a href="https://bit.ly/2BXDtk6" target="_blank"> this form </a> 
+                    we will schedule a time that works for you and your mentor. Please fill out
+                 <a href="https://bit.ly/2BXDtk6" target="_blank"> this form </a>
                 by 11:59 PM on July 17th if you are interested in signing up for this opportunity.
                 If you have any questions, please reach out to riceremixcs@gmail.com.</p>
 
                 <img className="mentorship-img" src="/static/pilot.png" alt="pilot"></img>
+
+                <div className="form-desktop">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd1VVyLJ834MzJzD-9yBF-HUoH3AgI1JTwb6plWfNmAUc5Hxg/viewform?embedded=true" width="640" height="2700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                </div>
+                <div className="form-mobile">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd1VVyLJ834MzJzD-9yBF-HUoH3AgI1JTwb6plWfNmAUc5Hxg/viewform?embedded=true" width="350" height="3200" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                </div>
             </Box>
 
-        </Container>
+
+
+        </Box>
     );
 }

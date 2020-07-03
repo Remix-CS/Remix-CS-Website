@@ -251,7 +251,7 @@ function (_react$Component) {
 /*! exports provided: navbarItems, default */
 /***/ (function(module) {
 
-module.exports = {"navbarItems":[{"name":"Home","link":"/"},{"name":"Curriculum","link":"/curriculum"},{"name":"Partnerships","link":"/partnerships"},{"name":"Resources","link":"/resources"},{"name":"Contact","link":"/contact"}]};
+module.exports = {"navbarItems":[{"name":"Home","link":"/"},{"name":"Mentorship","link":"/mentorship"},{"name":"Curriculum","link":"/curriculum"},{"name":"Partnerships","link":"/partnerships"},{"name":"Resources","link":"/resources"},{"name":"Contact","link":"/contact"}]};
 
 /***/ }),
 
