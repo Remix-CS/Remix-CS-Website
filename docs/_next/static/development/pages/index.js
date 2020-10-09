@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
 /***/ "./components/header.js":
 /*!******************************!*\
@@ -13,7 +13,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\Remix-CS-Website\\components\\header.js";
+var _jsxFileName = "/Users/prashanthpai/Desktop/Personal Projects/Remix-CS-Website/components/header.js";
 
 
 
@@ -83,7 +83,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _homepage_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./homepage.css */ "./components/homepage/homepage.css");
 /* harmony import */ var _homepage_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_homepage_css__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\Remix-CS-Website\\components\\homepage\\homepage.js";
+var _jsxFileName = "/Users/prashanthpai/Desktop/Personal Projects/Remix-CS-Website/components/homepage/homepage.js";
 
 
 
@@ -136,8 +136,8 @@ var Homepage = function Homepage() {
       lineNumber: 11
     },
     __self: this
-  }, "Our mission is to provide a platform for CS outreach to the greater Houston K-12 community to inspire future computer scientists of all backgrounds, specifically underrepresented minorities in CS. For more information about our work, please click ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://csweb.rice.edu/content/remixcs-offers-cs-training-local-high-school",
+  }, "Our mission is to provide a platform for CS outreach to the greater Houston K-12 community to inspire future computer scientists of all backgrounds, specifically underrepresented minorities in CS. For more information about our volunteer work, please click ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://csweb.rice.edu/news/remixcs-offers-cs-training-local-high-school",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
@@ -161,13 +161,13 @@ var Homepage = function Homepage() {
       lineNumber: 19
     },
     __self: this
-  }, "Explore"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Inspire"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
     },
     __self: this
-  }, "According to the bureau of labor statistics the number of jobs for software developers will increase by 30% by 2026. With knowledge of computer science, countless opportunities and doors will open for you.")));
+  }, "We're a group of Rice University student volunteers whose goal is to introduce high school students to computer science and the college application process. We hope that our mentorship program can inspire the next generation of innovators and leaders.")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Homepage);
@@ -205,7 +205,7 @@ var _navbar_json__WEBPACK_IMPORTED_MODULE_10___namespace = /*#__PURE__*/__webpac
 
 
 
-var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\Remix-CS-Website\\components\\navbar\\navbar.js";
+var _jsxFileName = "/Users/prashanthpai/Desktop/Personal Projects/Remix-CS-Website/components/navbar/navbar.js";
 
 
 
@@ -8135,10 +8135,10 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CRemix-CS-Website%5Cpages%5Cindex.js!./":
-/*!*********************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CRemix-CS-Website%5Cpages%5Cindex.js ***!
-  \*********************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fprashanthpai%2FDesktop%2FPersonal%20Projects%2FRemix-CS-Website%2Fpages%2Findex.js!./":
+/*!**********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fprashanthpai%2FDesktop%2FPersonal%20Projects%2FRemix-CS-Website%2Fpages%2Findex.js ***!
+  \**********************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15547,7 +15547,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_homepage_homepage__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/homepage/homepage */ "./components/homepage/homepage.js");
 /* harmony import */ var _page_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./page.css */ "./pages/page.css");
 /* harmony import */ var _page_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_page_css__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\Remix-CS-Website\\pages\\index.js";
+var _jsxFileName = "/Users/prashanthpai/Desktop/Personal Projects/Remix-CS-Website/pages/index.js";
 
 
 
@@ -15586,14 +15586,14 @@ var Home = function Home() {
 
 /***/ }),
 
-/***/ 11:
-/*!*************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CRemix-CS-Website%5Cpages%5Cindex.js ***!
-  \*************************************************************************************************************************************************/
+/***/ 0:
+/*!**************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fprashanthpai%2FDesktop%2FPersonal%20Projects%2FRemix-CS-Website%2Fpages%2Findex.js ***!
+  \**************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CRemix-CS-Website%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CRemix-CS-Website%5Cpages%5Cindex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fprashanthpai%2FDesktop%2FPersonal%20Projects%2FRemix-CS-Website%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fprashanthpai%2FDesktop%2FPersonal%20Projects%2FRemix-CS-Website%2Fpages%2Findex.js!./");
 
 
 /***/ }),
@@ -15609,5 +15609,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[11,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\mentorship.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/mentorship.js"],{
 
 /***/ "./components/header.js":
 /*!******************************!*\
@@ -13,7 +13,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\Remix-CS-Website\\components\\header.js";
+var _jsxFileName = "/Users/prashanthpai/Desktop/Personal Projects/Remix-CS-Website/components/header.js";
 
 
 
@@ -84,7 +84,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _mentorship_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./mentorship.css */ "./components/mentorship/mentorship.css");
 /* harmony import */ var _mentorship_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_mentorship_css__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\Remix-CS-Website\\components\\mentorship\\mentorship.js";
+var _jsxFileName = "/Users/prashanthpai/Desktop/Personal Projects/Remix-CS-Website/components/mentorship/mentorship.js";
 
 
 
@@ -213,7 +213,7 @@ var _navbar_json__WEBPACK_IMPORTED_MODULE_10___namespace = /*#__PURE__*/__webpac
 
 
 
-var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\Remix-CS-Website\\components\\navbar\\navbar.js";
+var _jsxFileName = "/Users/prashanthpai/Desktop/Personal Projects/Remix-CS-Website/components/navbar/navbar.js";
 
 
 
@@ -8143,10 +8143,10 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fmentorship&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CRemix-CS-Website%5Cpages%5Cmentorship.js!./":
-/*!************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fmentorship&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CRemix-CS-Website%5Cpages%5Cmentorship.js ***!
-  \************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fmentorship&absolutePagePath=%2FUsers%2Fprashanthpai%2FDesktop%2FPersonal%20Projects%2FRemix-CS-Website%2Fpages%2Fmentorship.js!./":
+/*!*************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fmentorship&absolutePagePath=%2FUsers%2Fprashanthpai%2FDesktop%2FPersonal%20Projects%2FRemix-CS-Website%2Fpages%2Fmentorship.js ***!
+  \*************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15555,7 +15555,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_mentorship_mentorship__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/mentorship/mentorship */ "./components/mentorship/mentorship.js");
 /* harmony import */ var _page_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./page.css */ "./pages/page.css");
 /* harmony import */ var _page_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_page_css__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\Remix-CS-Website\\pages\\mentorship.js";
+var _jsxFileName = "/Users/prashanthpai/Desktop/Personal Projects/Remix-CS-Website/pages/mentorship.js";
 
 
 
@@ -15594,14 +15594,14 @@ var Mentorship = function Mentorship() {
 
 /***/ }),
 
-/***/ 0:
-/*!****************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fmentorship&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CRemix-CS-Website%5Cpages%5Cmentorship.js ***!
-  \****************************************************************************************************************************************************************/
+/***/ 5:
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fmentorship&absolutePagePath=%2FUsers%2Fprashanthpai%2FDesktop%2FPersonal%20Projects%2FRemix-CS-Website%2Fpages%2Fmentorship.js ***!
+  \*****************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fmentorship&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CRemix-CS-Website%5Cpages%5Cmentorship.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fmentorship&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CRemix-CS-Website%5Cpages%5Cmentorship.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fmentorship&absolutePagePath=%2FUsers%2Fprashanthpai%2FDesktop%2FPersonal%20Projects%2FRemix-CS-Website%2Fpages%2Fmentorship.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fmentorship&absolutePagePath=%2FUsers%2Fprashanthpai%2FDesktop%2FPersonal%20Projects%2FRemix-CS-Website%2Fpages%2Fmentorship.js!./");
 
 
 /***/ }),
@@ -15617,5 +15617,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[5,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=mentorship.js.map

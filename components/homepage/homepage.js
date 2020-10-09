@@ -10,16 +10,17 @@ const Homepage = () => (
             <h1>Grow</h1>
             <p>
                 Our mission is to provide a platform for CS outreach to the greater Houston K-12 community to inspire future computer scientists of all backgrounds, specifically underrepresented minorities in CS. 
-                For more information about our work, please click <a href="https://csweb.rice.edu/content/remixcs-offers-cs-training-local-high-school">here</a>.
+                For more information about our volunteer work, please click <a href="https://csweb.rice.edu/news/remixcs-offers-cs-training-local-high-school">here</a>.
                 </p>
             <h1>Learn</h1>
             <p>
                 Our curriculum is designed to teach foundational python programming skills, as well as provide an introduction to concepts fundamental to computer science as a whole.
                 </p>
-            <h1>Explore</h1>
+            <h1>Inspire</h1>
             <p>
-                According to the bureau of labor statistics the number of jobs for software developers will increase by 30% by 2026. With knowledge of computer science, countless opportunities and doors will open for you.
-                </p>
+                We're a group of Rice University student volunteers whose goal is to introduce high school students to computer science and the college application process. We hope that our 
+                mentorship program can inspire the next generation of innovators and leaders.
+            </p>
         </Box>
     </div>
 )
