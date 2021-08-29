@@ -1,7 +1,7 @@
 import react from 'react';
 import Link from 'next/link';
 import './navbar.css';
-import { Box, Image } from 'rebass';
+import { Box, Image, Flex } from 'rebass';
 import { navbarItems } from './navbar.json';
 
 class navbar extends react.Component {
@@ -21,15 +21,15 @@ class navbar extends react.Component {
 
     render() {
         return (
-            <div>
-                <div className='mobile-header'>
-                    <img onClick={this.toggleNavbar} className='show-navbar' src='https://icon.now.sh/burger/E3E9F4/30' alt='+' />
+            <div style={{display: 'inline-block'}}>
+                <Flex className='mobile-header'alignItems='center'>
+                    <img onClick={this.toggleNavbar} className='show-navbar' src='../../static/burger.png' alt='+' width='35px' />
                     <p>Remix<strong>CS</strong></p>
-                </div>
-                <div className={this.state.hidden ? 'navbar-wrapper-hidden' : 'navbar-wrapper-visible'}>
+                </Flex>
+                <Flex className={this.state.hidden ? 'navbar-wrapper-hidden' : 'navbar-wrapper-visible'} justifyContent='space-between' alignItems='center'>
                     <p className='remix-name'>Remix<strong>CS</strong></p>
                     <div className='navbar'>
-                        <img className='hide-navbar' onClick={this.toggleNavbar} src='https://icon.now.sh/x/E3E9F4/30' alt='X' />
+                        <img className='hide-navbar' onClick={this.toggleNavbar} src='../../static/x.png' alt='X' width='20px' />
                         {
                             navbarItems.map(({ name, link }) => (
                                 <div key={name} className='navbar-link'>
@@ -38,7 +38,7 @@ class navbar extends react.Component {
                             ))
                         }
                     </div>
-                </div>
+                </Flex>
             </div>
         )
     }

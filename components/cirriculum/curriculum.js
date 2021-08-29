@@ -1,6 +1,6 @@
-import './cirriculum.css';
+import './curriculum.css';
 import { Box } from 'rebass';
-import { modules } from './cirriculum.json'
+import { modules } from './curriculum.json'
 
 const Curriculum = () => {
     let module_components = []
@@ -14,7 +14,8 @@ const Curriculum = () => {
         )
     }
     return (
-        <div className='cirriculum-page'>
+        <div className='curriculum-page'>
+            <h1 className='curriculum-header'>Curriculum</h1>
             {module_components}
         </div>
     )

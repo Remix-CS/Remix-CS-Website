@@ -1,11 +1,5 @@
 .home-page {
-    margin: 10% 0;
-}
-
-@media screen and (max-width: 800px) {
-    .home-page {
-        margin-top: 20%;
-    }
+    margin: 80px 0px 50px 0px;
 }
 
 .bullets h1 {
@@ -20,7 +14,7 @@
 }
 
 .bullets p {
-    color: #99A1C1;
+    color: #222D59;
     margin-left: 10px;
 }
 
@@ -30,11 +24,10 @@
 
 .bullets p a {
     text-decoration: none;
-    color: #222D59;
+    color: #99A1C1;
 }
 
-.bullets p a:visited {
+.bullets p a:hover {
     text-decoration: none;
     color: #222D59;
-    opacity: 0.7;
 }

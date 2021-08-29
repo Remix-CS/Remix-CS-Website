@@ -4,6 +4,7 @@ import { partners } from './partnerships.json';
 
 const Partnerships = () => (
     <div className='partnerships-page'>
+        <h1 className='partnerships-header'>Parternships</h1>
         {
             partners.map(({ name, website, start, picture }) => (
                 <Box width={[0.8, 0.7, 0.6, 0.5]} ml='auto' mr='auto' mt={40} className='partnerships' key={name}>

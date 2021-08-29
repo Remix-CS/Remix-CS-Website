@@ -13,7 +13,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/prashanthpai/Desktop/Personal Projects/Remix-CS-Website/components/header.js";
+var _jsxFileName = "/Users/rithikjain/Desktop/Remix-CS-Website/components/header.js";
 
 
 
@@ -83,7 +83,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _homepage_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./homepage.css */ "./components/homepage/homepage.css");
 /* harmony import */ var _homepage_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_homepage_css__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/prashanthpai/Desktop/Personal Projects/Remix-CS-Website/components/homepage/homepage.js";
+var _jsxFileName = "/Users/rithikjain/Desktop/Remix-CS-Website/components/homepage/homepage.js";
 
 
 
@@ -91,16 +91,19 @@ var _jsxFileName = "/Users/prashanthpai/Desktop/Personal Projects/Remix-CS-Websi
 var Homepage = function Homepage() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "home-page",
+    marginTop: "10px",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
     width: [0.8, 0.55],
     className: "remix-logo",
     ml: "auto",
     mr: "auto",
+    flexDirection: "column",
+    justifyContent: "flex-end",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
@@ -114,57 +117,79 @@ var Homepage = function Homepage() {
       lineNumber: 7
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
+    alignItems: "center",
+    flexWrap: "nowrap",
+    style: {
+      margin: '0 0 10px auto'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, "Sponsored by", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
+    src: "../../static/twoSigma.svg",
+    alt: "",
+    width: "135px",
+    ml: "10px",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     className: "bullets",
     width: [0.8, 0.7, 0.6, 0.5],
     ml: "auto",
     mr: "auto",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 15
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 16
     },
     __self: this
   }, "Grow"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 17
     },
     __self: this
   }, "Our mission is to provide a platform for CS outreach to the greater Houston K-12 community to inspire future computer scientists of all backgrounds, specifically underrepresented minorities in CS. For more information about our volunteer work, please click ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://csweb.rice.edu/news/remixcs-offers-cs-training-local-high-school",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }, "here"), "."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }, "Learn"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }, "Our curriculum is designed to teach foundational python programming skills, as well as provide an introduction to concepts fundamental to computer science as a whole."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    target: "_blank",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
     },
     __self: this
+  }, "here"), "."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, "Learn"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, "Our curriculum is designed to teach foundational python programming skills, as well as provide an introduction to concepts fundamental to computer science as a whole."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
   }, "Inspire"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 26
     },
     __self: this
   }, "We're a group of Rice University student volunteers whose goal is to introduce high school students to computer science and the college application process. We hope that our mentorship program can inspire the next generation of innovators and leaders.")));
@@ -205,7 +230,7 @@ var _navbar_json__WEBPACK_IMPORTED_MODULE_10___namespace = /*#__PURE__*/__webpac
 
 
 
-var _jsxFileName = "/Users/prashanthpai/Desktop/Personal Projects/Remix-CS-Website/components/navbar/navbar.js";
+var _jsxFileName = "/Users/rithikjain/Desktop/Remix-CS-Website/components/navbar/navbar.js";
 
 
 
@@ -242,13 +267,17 @@ function (_react$Component) {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        style: {
+          display: 'inline-block'
+        },
         __source: {
           fileName: _jsxFileName,
           lineNumber: 24
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_9__["Flex"], {
         className: "mobile-header",
+        alignItems: "center",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 25
@@ -257,8 +286,9 @@ function (_react$Component) {
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
         onClick: this.toggleNavbar,
         className: "show-navbar",
-        src: "https://icon.now.sh/burger/E3E9F4/30",
+        src: "../../static/burger.png",
         alt: "+",
+        width: "35px",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 26
@@ -276,8 +306,10 @@ function (_react$Component) {
           lineNumber: 27
         },
         __self: this
-      }, "CS"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+      }, "CS"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_9__["Flex"], {
         className: this.state.hidden ? 'navbar-wrapper-hidden' : 'navbar-wrapper-visible',
+        justifyContent: "space-between",
+        alignItems: "center",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 29
@@ -306,8 +338,9 @@ function (_react$Component) {
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
         className: "hide-navbar",
         onClick: this.toggleNavbar,
-        src: "https://icon.now.sh/x/E3E9F4/30",
+        src: "../../static/x.png",
         alt: "X",
+        width: "20px",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 32
@@ -8135,10 +8168,10 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fprashanthpai%2FDesktop%2FPersonal%20Projects%2FRemix-CS-Website%2Fpages%2Findex.js!./":
-/*!**********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fprashanthpai%2FDesktop%2FPersonal%20Projects%2FRemix-CS-Website%2Fpages%2Findex.js ***!
-  \**********************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Frithikjain%2FDesktop%2FRemix-CS-Website%2Fpages%2Findex.js!./":
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Frithikjain%2FDesktop%2FRemix-CS-Website%2Fpages%2Findex.js ***!
+  \**********************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15547,7 +15580,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_homepage_homepage__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/homepage/homepage */ "./components/homepage/homepage.js");
 /* harmony import */ var _page_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./page.css */ "./pages/page.css");
 /* harmony import */ var _page_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_page_css__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "/Users/prashanthpai/Desktop/Personal Projects/Remix-CS-Website/pages/index.js";
+var _jsxFileName = "/Users/rithikjain/Desktop/Remix-CS-Website/pages/index.js";
 
 
 
@@ -15587,13 +15620,13 @@ var Home = function Home() {
 /***/ }),
 
 /***/ 0:
-/*!**************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fprashanthpai%2FDesktop%2FPersonal%20Projects%2FRemix-CS-Website%2Fpages%2Findex.js ***!
-  \**************************************************************************************************************************************************************/
+/*!**************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Frithikjain%2FDesktop%2FRemix-CS-Website%2Fpages%2Findex.js ***!
+  \**************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fprashanthpai%2FDesktop%2FPersonal%20Projects%2FRemix-CS-Website%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fprashanthpai%2FDesktop%2FPersonal%20Projects%2FRemix-CS-Website%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Frithikjain%2FDesktop%2FRemix-CS-Website%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Frithikjain%2FDesktop%2FRemix-CS-Website%2Fpages%2Findex.js!./");
 
 
 /***/ }),
