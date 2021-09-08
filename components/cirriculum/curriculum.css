@@ -1,11 +1,13 @@
-.curriculum-page {
-    padding-top: 40px;
-    margin: 30px 10% 50px 10%;
+#legacy-curriculum {
+    padding: 40px 0 40px 0;
+    margin: 30px 0 0 0;
+    width: 100%;
+    scroll-margin-top: 50px;
 }
 
-.curriculum-page .curriculum-header {
+#legacy-curriculum .curriculum-header {
     font-weight: normal;
-    color: #222D59;
+    color: #000;
     text-align: center;
     width: 80%;
     margin-left: auto;
@@ -14,26 +16,20 @@
     padding-bottom: 25px;
 }
 
-@media screen and (max-width: 800px) {
-    /* .curriculum-page {
-        margin-top: 20%;
-    } */
-}
-
 .module {
     border-radius: 5px;
-    box-shadow: 0 0 7px 1px #99A1C1;
+    border: #919191 1px solid;
     padding: 10px 20px;
 }
 
-.module h1 {
+.module h2 {
     margin: 5px;
     font-weight: normal;
-    color: #222D59;
+    color: #525252;
 }
 
 .module a {
-    color: #99A1C1;
+    color: #636363;
     font-weight: normal;
     text-decoration: none;
     transition: 0.2s ease-in-out;
@@ -45,5 +41,5 @@
 }
 
 .module a:hover {
-    color: #222D59;
+    color: #000;
 }

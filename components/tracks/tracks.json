@@ -1,0 +1,19 @@
+{
+    "tracks": [
+        {
+            "title": "Tour of Tech",
+            "experience": "None",
+            "description": "Ever wonder how self-driving cars work? Or what it’s like to work at a company like Google? Technology and computer science is an extremely broad field. This track will provide you with an overview of it. You’ll learn more about different career paths within technology and various popular topics in technology (i.e., artificial intelligence, self-driving cars, how social media works, tech ethics). Your mentors will also serve as a resource for you to ask any questions you have about what it’s like to major in a tech-related field like computer science, how to get research/internship experience, and anything else you’re curious about."
+        },
+        {
+            "title": "Programming In Python",
+            "experience": "None",
+            "description": "Python is a very adaptable programming language that is used in a wide variety of applications from building web servers to AI. This track will be an introduction to programming in Python and will give you hands on experience through completing a couple of introductory projects. You will have the opportunity to learn about the basic data structures and features of the language and learn the skills to solve further problems using Python."
+        },
+        {
+            "title": "World of Web Development",
+            "experience": "None but helps to have basic knowledge of HTML and JavaScript",
+            "description": "Whether it’s to connect with friends or order a pizza, people use websites everyday. But have you ever wondered what happens behind the scenes when you open a website or how to make one yourself? In this course, you will learn how to build a website using React, a popular framework for web development that is used across the industry by companies such as Netflix, Facebook, and Airbnb. By the end of this course, you will have your own personal website to showcase and the set of skills you’ll need to create many more in the future."
+        }
+    ]
+}

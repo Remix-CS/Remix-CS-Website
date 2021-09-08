@@ -3,14 +3,14 @@ import './contact.css';
 import { leadership } from './contact.json';
 
 const Contact = () => (
-    <div className='contact-page'>
+    <div id='contact' style={{backgroundColor: '#f2fffa'}}>
         <h1 className='contact-header'>Contact</h1>
         {
             leadership.map(({ name, position, email, picture, year }) => (
                 <Box width={[0.8, 0.7, 0.6, 0.5]} ml='auto' mr='auto' mt='30px' className='contact' key={name}>
                     <Flex flexDirection='row' flexWrap='wrap' justifyContent='center'>
-                        <Box width={[0.8, 0.3]}>
-                            <Image src={picture} alt="" />
+                        <Box className="contact-img" width={[0.8, 0.3]} style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                            <Image src={picture} alt="" style={{margin: '5px'}} />
                         </Box>
                         <Box width={[0.8, 0.6]} className='contact-bio'>
                             <h2>{name}</h2>

@@ -1,0 +1,45 @@
+#curriculum {
+    padding: 40px 0 40px 0;
+    margin: 0;
+    width: 100%;
+    scroll-margin-top: 50px;
+    color: #525252;
+}
+
+#curriculum .curriculum-header {
+    font-weight: normal;
+    color: #000;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5px;
+    padding-bottom: 25px;
+}
+
+.track h2 {
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.track h3 {
+    margin: 10px auto 15px auto;
+    line-height: 1.5em;
+}
+
+.track p {
+    margin: 10px 0 30px 20px;
+}
+
+#curriculum .legacyLink {
+    text-align: center;
+    margin-top: 60px;
+}
+
+#curriculum .legacyLink a {
+    color: #636363;
+}
+
+#curriculum .legacyLink a:hover {
+    color: #000;
+}

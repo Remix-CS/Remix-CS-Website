@@ -22,17 +22,17 @@ class navbar extends react.Component {
     render() {
         return (
             <div style={{display: 'inline-block'}}>
-                <Flex className='mobile-header'alignItems='center'>
-                    <img onClick={this.toggleNavbar} className='show-navbar' src='../../static/burger.png' alt='+' width='35px' />
-                    <p>Remix<strong>CS</strong></p>
+                <Flex id='mobile-header'alignItems='center'>
+                    <img onClick={this.toggleNavbar} className='show-navbar' src='../../static/burger.svg' alt='+' width='35px' />
+                    <Link href='/#home-page'><p>Remix<strong>CS</strong></p></Link>
                 </Flex>
                 <Flex className={this.state.hidden ? 'navbar-wrapper-hidden' : 'navbar-wrapper-visible'} justifyContent='space-between' alignItems='center'>
-                    <p className='remix-name'>Remix<strong>CS</strong></p>
+                    <Link href='/#home-page'><a id='remix-name' className='navbar-link-name'>Remix<strong>CS</strong></a></Link>
                     <div className='navbar'>
-                        <img className='hide-navbar' onClick={this.toggleNavbar} src='../../static/x.png' alt='X' width='20px' />
+                        <img className='hide-navbar' onClick={this.toggleNavbar} src='../../static/x.svg' alt='X' width='20px' />
                         {
                             navbarItems.map(({ name, link }) => (
-                                <div key={name} className='navbar-link'>
+                                <div onClick={this.toggleNavbar} key={name} className='navbar-link'>
                                     <Link href={link} ><a className='navbar-link-name'>{name}</a></Link>
                                 </div>
                             ))

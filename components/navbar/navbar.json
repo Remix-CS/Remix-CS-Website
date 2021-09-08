@@ -1,28 +1,24 @@
 {
     "navbarItems": [
         {
-            "name": "Home",
-            "link": "/"
-        },
-        {
-            "name": "Mentorship",
-            "link": "/mentorship"
+            "name": "Our Program",
+            "link": "/#our-program"
         },
         {
             "name": "Curriculum",
-            "link": "/curriculum"
+            "link": "/#curriculum"
         },
         {
-            "name": "Partnerships",
-            "link": "/partnerships"
+            "name": "Mentors",
+            "link": "/#mentors"
         },
         {
-            "name": "Resources",
-            "link": "/resources"
+            "name": "History",
+            "link": "/#history"
         },
         {
             "name": "Contact",
-            "link": "/contact"
+            "link": "/#contact"
         }
     ]
 }

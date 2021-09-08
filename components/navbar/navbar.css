@@ -2,12 +2,11 @@
     cursor: pointer;
 }
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1000px) {
     .navbar-wrapper-hidden, .navbar-wrapper-visible {
         width: 100%;
         position: fixed;
-        background-color: #99A1C1;
-        box-shadow: 0 0 10px 1px #99A1C1;
+        background-color: #FFF;
         top: 0;
     }
     .navbar {
@@ -22,33 +21,33 @@
         margin: 0px 20px;
         transition: 0.2s ease-in-out;
     }
-    .navbar-link:hover .navbar-link-name {
-        color: #222D59;
+    .navbar-link:hover .navbar-link-name, #remix-name:hover {
+        color: #2e2d2d;
     }
     .navbar-link-name {
         font-size: 1.3em;
         text-decoration: none;
-        color: #FFF;
+        color: #636363;
         padding: 5px;
         transition: 0.2s ease-in-out;
     }
-    .mobile-header, .hide-navbar {
+    #mobile-header, .hide-navbar {
         display: none;
     }
-    .remix-name {
+    #remix-name {
         display: inline-block;
         font-size: 1.4em;
         margin: 15px 0px 15px 20px;
-        color: #FFF;
+        color: #636363;
     }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1000px) {
     .navbar-wrapper-visible, .navbar-wrapper-hidden {
         width: 100%;
         height: 100vh;
         position: fixed;
-        background-color: #99A1C1;
+        background-color: #f2fffa;
         top: 0;
         transition: 0.5s ease-in-out;
     }
@@ -66,12 +65,12 @@
         transition: 0.2s ease-in-out;
     }
     .navbar-link:hover .navbar-link-name {
-        color: #222D59;
+        color: #2e2d2d;
     }
     .navbar-link-name {
         font-size: 2em;
         text-decoration: none;
-        color: #FFF;
+        color: #636363;
         padding: 5px;
         transition: 0.2s ease-in-out;
     }
@@ -84,23 +83,24 @@
         right: 0;
         position: absolute;
     }
-    .mobile-header {
+    #mobile-header {
         position: fixed;
         top: 0;
         display: flex;
         flex-direction: row;
-        background-color: #99A1C1;
-        box-shadow: 0 0 5px 1px #99A1C1;
+        background-color: #FFF;
         width: 100%;
-        /* height: 51px; */
     }
-    .mobile-header p {
-        color: #FFF;
+    #mobile-header p {
+        color: #636363;
         font-size: 1.4em;
         text-align: center;
         margin: 15px 0px 15px 15px;
     }
-    .remix-name {
+    #mobile-header p:hover {
+        cursor: pointer;
+    }
+    #remix-name {
         display: none;
     }
 }

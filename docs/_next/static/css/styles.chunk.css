@@ -2,12 +2,11 @@
     cursor: pointer;
 }
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1000px) {
     .navbar-wrapper-hidden, .navbar-wrapper-visible {
         width: 100%;
         position: fixed;
-        background-color: #99A1C1;
-        box-shadow: 0 0 10px 1px #99A1C1;
+        background-color: #FFF;
         top: 0;
     }
     .navbar {
@@ -22,33 +21,33 @@
         margin: 0px 20px;
         transition: 0.2s ease-in-out;
     }
-    .navbar-link:hover .navbar-link-name {
-        color: #222D59;
+    .navbar-link:hover .navbar-link-name, #remix-name:hover {
+        color: #2e2d2d;
     }
     .navbar-link-name {
         font-size: 1.3em;
         text-decoration: none;
-        color: #FFF;
+        color: #636363;
         padding: 5px;
         transition: 0.2s ease-in-out;
     }
-    .mobile-header, .hide-navbar {
+    #mobile-header, .hide-navbar {
         display: none;
     }
-    .remix-name {
+    #remix-name {
         display: inline-block;
         font-size: 1.4em;
         margin: 15px 0px 15px 20px;
-        color: #FFF;
+        color: #636363;
     }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1000px) {
     .navbar-wrapper-visible, .navbar-wrapper-hidden {
         width: 100%;
         height: 100vh;
         position: fixed;
-        background-color: #99A1C1;
+        background-color: #f2fffa;
         top: 0;
         transition: 0.5s ease-in-out;
     }
@@ -66,12 +65,12 @@
         transition: 0.2s ease-in-out;
     }
     .navbar-link:hover .navbar-link-name {
-        color: #222D59;
+        color: #2e2d2d;
     }
     .navbar-link-name {
         font-size: 2em;
         text-decoration: none;
-        color: #FFF;
+        color: #636363;
         padding: 5px;
         transition: 0.2s ease-in-out;
     }
@@ -84,34 +83,393 @@
         right: 0;
         position: absolute;
     }
-    .mobile-header {
+    #mobile-header {
         position: fixed;
         top: 0;
         display: flex;
         flex-direction: row;
-        background-color: #99A1C1;
-        box-shadow: 0 0 5px 1px #99A1C1;
+        background-color: #FFF;
         width: 100%;
-        /* height: 51px; */
     }
-    .mobile-header p {
-        color: #FFF;
+    #mobile-header p {
+        color: #636363;
         font-size: 1.4em;
         text-align: center;
         margin: 15px 0px 15px 15px;
     }
-    .remix-name {
+    #mobile-header p:hover {
+        cursor: pointer;
+    }
+    #remix-name {
         display: none;
     }
 }
-.contact-page {
-    padding-top: 40px;
-    margin: 30px 10% 50px 10%;
+#home-page {
+    margin: 0px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #525252;
+    scroll-margin-top: 90px;
 }
 
-.contact-page .contact-header {
+.bullets h1 {
+    color: #000;
     font-weight: normal;
-    color: #222D59;
+    width: 50px;
+    border: solid #525252;
+    border-width: 0 0 2px 0;
+    padding-bottom: 10px;
+    font-size: 2.2em;
+    margin: 10px 0;
+}
+
+.bullets p {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.remix-logo {
+    margin: 3% 0 0 5%;
+}
+
+.bullets p a {
+    color: #636363;
+}
+
+.bullets p a:hover {
+    color: #000;
+}
+#legacy-curriculum {
+    padding: 40px 0 40px 0;
+    margin: 30px 0 0 0;
+    width: 100%;
+    scroll-margin-top: 50px;
+}
+
+#legacy-curriculum .curriculum-header {
+    font-weight: normal;
+    color: #000;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5px;
+    padding-bottom: 25px;
+}
+
+.module {
+    border-radius: 5px;
+    border: #919191 1px solid;
+    padding: 10px 20px;
+}
+
+.module h2 {
+    margin: 5px;
+    font-weight: normal;
+    color: #525252;
+}
+
+.module a {
+    color: #636363;
+    font-weight: normal;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+
+.module a h3 {
+    font-weight: normal;
+    margin-left: 30px;
+}
+
+.module a:hover {
+    color: #000;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* background-image: url('../static/background.png');
+    background-image: 'url(../static/background.png)';
+    background-repeat: 'no-repeat';
+    background-size: 'cover';
+    background-position: 'left bottom';
+    background-attachment: 'fixed'; */
+}
+
+h1 {
+    margin-top: 10%;
+}
+
+p {
+    line-height: 1.5em;
+}
+#our-program {
+    scroll-margin-top: 50px;
+}
+
+.program-page {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.program-page h1 {
+    font-weight: normal;
+    color: #000;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5px;
+}
+
+.program-page h2 {
+    font-weight: normal;
+    color: #525252;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5px;
+    padding-bottom: 15px;
+}
+
+.program-description {
+    font-weight: normal;
+    color: #525252;
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 500px) {
+    .program-description {
+        width: 85%;
+    }
+}
+
+.links {
+    text-align: center;
+}
+
+#our-program a {
+    color: #636363;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.2s ease-in-out;
+    display: inline-block;
+}
+
+#our-program a h3 {
+    font-weight: normal;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: #919191 1px solid;
+}
+
+#our-program a:hover {
+    color: #000;
+}
+#curriculum {
+    padding: 40px 0 40px 0;
+    margin: 0;
+    width: 100%;
+    scroll-margin-top: 50px;
+    color: #525252;
+}
+
+#curriculum .curriculum-header {
+    font-weight: normal;
+    color: #000;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5px;
+    padding-bottom: 25px;
+}
+
+.track h2 {
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.track h3 {
+    margin: 10px auto 15px auto;
+    line-height: 1.5em;
+}
+
+.track p {
+    margin: 10px 0 30px 20px;
+}
+
+#curriculum .legacyLink {
+    text-align: center;
+    margin-top: 60px;
+}
+
+#curriculum .legacyLink a {
+    color: #636363;
+}
+
+#curriculum .legacyLink a:hover {
+    color: #000;
+}
+#history {
+    padding: 40px 0;
+    margin: 0;
+    scroll-margin-top: 50px;
+}
+
+#history .history-header {
+    font-weight: normal;
+    color: #000;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5px;
+    padding-bottom: 25px;
+}
+
+.schools {
+    border-radius: 5px;
+    border: #919191 1px solid;
+    padding: 20px;
+}
+
+@media screen and (min-width: 640px) {
+    .schools-info {
+        margin-left: 20px;
+    }
+    .schools h1 {
+        color: #525252;
+        font-weight: normal;
+        margin: 5px;
+    }
+    .schools h3 {
+        color: #919191;
+        font-weight: normal;
+        margin: 8px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .schools h1 {
+        color: #525252;
+        font-weight: normal;
+        margin: 5px;
+        text-align: center;
+    }
+    .schools h3 {
+        color: #919191;
+        font-weight: normal;
+        margin: 8px;
+        text-align: center;
+    }
+    .schools-img {
+        margin: 10px auto 20px auto;
+    }
+}
+
+.schools-info a {
+    text-decoration: none;
+}
+
+.schools-info a h3 {
+    transition: 0.3s ease-in-out;
+}
+
+.schools-info a:hover h3 {
+    transform: translate(10px);
+}
+
+.schools-img img {
+    border-radius: 5px;
+}
+
+#history h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #525252;
+}
+#mentors {
+    width: 100%;
+    padding: 40px 0;
+    margin: 0;
+    scroll-margin-top: 50px;
+}
+
+#mentors .mentors-header {
+    font-weight: normal;
+    color: #000;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5px;
+    padding-bottom: 25px;
+}
+
+#mentors p {
+    font-weight: normal;
+    color: #525252;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 0.5px;
+}
+
+.links {
+    text-align: center;
+}
+
+#mentors a {
+    color: #636363;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.2s ease-in-out;
+    display: inline-block;
+}
+
+#mentors a h3 {
+    font-weight: normal;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: #919191 1px solid;
+}
+
+#mentors a:hover {
+    color: #000;
+}
+#contact {
+    width: 100%;
+    padding: 40px 0;
+    margin: 0;
+    scroll-margin-top: 50px;
+}
+
+#contact .contact-header {
+    font-weight: normal;
+    color: #000;
     text-align: center;
     width: 80%;
     margin-left: auto;
@@ -122,7 +480,7 @@
 
 .contact {
     border-radius: 5px;
-    box-shadow: 0 0 7px 1px #99A1C1;
+    border: #919191 1px solid;
     padding: 20px;
 }
 
@@ -131,13 +489,13 @@
         margin-left: 20px;
     }
     .contact h2 {
-        color: #222D59;
+        color: #525252;
         font-weight: normal;
         margin: 5px;
         margin-left: 20px;
     }
     .contact h3 {
-        color: #99A1C1;
+        color: #919191;
         font-weight: normal;
         margin: 8px;
         margin-left: 20px;
@@ -145,70 +503,22 @@
 }
 
 @media screen and (max-width: 800px) {
-    .contact-page {
-        margin-top: 20%;
-    }
     .contact h2 {
-        color: #222D59;
+        color: #525252;
         font-weight: normal;
         margin: 5px;
         text-align: center;
     }
     .contact h3 {
-        color: #99A1C1;
+        color: #919191;
         font-weight: normal;
         margin: 8px;
         text-align: center;
     }
 }
-.home-page {
-    margin: 80px 0px 50px 0px;
-}
 
-.bullets h1 {
-    font-weight: normal;
-    width: 50px;
-    border: solid #222D59;
-    border-width: 0 0 2px 0;
-    color: #222D59;
-    padding-bottom: 10px;
-    font-size: 2.2em;
-    margin: 10px 0;
-}
-
-.bullets p {
-    color: #222D59;
-    margin-left: 10px;
-}
-
-.remix-logo {
-    margin: 3% 0 0 5%;
-}
-
-.bullets p a {
-    text-decoration: none;
-    color: #99A1C1;
-}
-
-.bullets p a:hover {
-    text-decoration: none;
-    color: #222D59;
-}
-html {
-    margin: 0;
-    padding: 0;
-    background-color: #FFF;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: normal;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-}
-
-h1 {
-    margin-top: 10%;
+.contact-img img {
+    border-radius: 5px;
 }
 
 /*# sourceMappingURL=styles.chunk.css.map*/

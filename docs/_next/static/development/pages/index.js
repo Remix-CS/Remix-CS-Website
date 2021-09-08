@@ -1,5 +1,148 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
+/***/ "./components/contact/contact.js":
+/*!***************************************!*\
+  !*** ./components/contact/contact.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.js");
+/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _contact_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./contact.css */ "./components/contact/contact.css");
+/* harmony import */ var _contact_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_contact_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _contact_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./contact.json */ "./components/contact/contact.json");
+var _contact_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./contact.json */ "./components/contact/contact.json", 1);
+var _jsxFileName = "/Users/rithikjain/Desktop/Remix-CS-Website/components/contact/contact.js";
+
+
+
+
+
+var Contact = function Contact() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "contact",
+    style: {
+      backgroundColor: '#f2fffa'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "contact-header",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, "Contact"), _contact_json__WEBPACK_IMPORTED_MODULE_3__["leadership"].map(function (_ref) {
+    var name = _ref.name,
+        position = _ref.position,
+        email = _ref.email,
+        picture = _ref.picture,
+        year = _ref.year;
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+      width: [0.8, 0.7, 0.6, 0.5],
+      ml: "auto",
+      mr: "auto",
+      mt: "30px",
+      className: "contact",
+      key: name,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 10
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
+      flexDirection: "row",
+      flexWrap: "wrap",
+      justifyContent: "center",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 11
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+      className: "contact-img",
+      width: [0.8, 0.3],
+      style: {
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center'
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 12
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
+      src: picture,
+      alt: "",
+      style: {
+        margin: '5px'
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 13
+      },
+      __self: this
+    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+      width: [0.8, 0.6],
+      className: "contact-bio",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 15
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16
+      },
+      __self: this
+    }, name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 17
+      },
+      __self: this
+    }, position), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18
+      },
+      __self: this
+    }, email), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19
+      },
+      __self: this
+    }, year))));
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Contact);
+
+/***/ }),
+
+/***/ "./components/contact/contact.json":
+/*!*****************************************!*\
+  !*** ./components/contact/contact.json ***!
+  \*****************************************/
+/*! exports provided: leadership, default */
+/***/ (function(module) {
+
+module.exports = {"leadership":[{"name":"Angie Chen","position":"RemixCS Chair","email":"axc1@rice.edu","year":"2022","picture":"/static/axc1.png"},{"name":"Prashanth Pai","position":"External VP","email":"pbp2@rice.edu","year":"2022","picture":"/static/pbp2.png"},{"name":"Venus Alemanji","position":"External VP","email":"va23@rice.edu","year":"2022","picture":"/static/va23.png"},{"name":"Lauryn Tuo","position":"Internal VP","email":"lt31@rice.edu","year":"2024","picture":"/static/lt31.png"},{"name":"Vivian Ellis","position":"Internal VP","email":"vce1@rice.edu","year":"2023","picture":"/static/vce1.png"},{"name":"John Shieh","position":"Curriculum Head","email":"jcs17@rice.edu","year":"2023","picture":"/static/jcs17.png"},{"name":"Rithik Jain","position":"Webmaster","email":"rj34@rice.edu","year":"2024","picture":"/static/rj34.png"}]};
+
+/***/ }),
+
 /***/ "./components/header.js":
 /*!******************************!*\
   !*** ./components/header.js ***!
@@ -68,6 +211,164 @@ var Header = function Header() {
 
 /***/ }),
 
+/***/ "./components/history/history.js":
+/*!***************************************!*\
+  !*** ./components/history/history.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.js");
+/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _history_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./history.css */ "./components/history/history.css");
+/* harmony import */ var _history_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_history_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _history_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./history.json */ "./components/history/history.json");
+var _history_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./history.json */ "./components/history/history.json", 1);
+var _jsxFileName = "/Users/rithikjain/Desktop/Remix-CS-Website/components/history/history.js";
+
+
+
+
+
+var History = function History() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "history",
+    style: {
+      backgroundImage: 'url(../../static/background.png)',
+      backgroundRepeat: 'no-repeat',
+      backgroundSize: 'cover',
+      backgroundPosition: 'left bottom',
+      backgroundAttachment: 'fixed'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "history-header",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, "History"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, "Affiliated Schools"), _history_json__WEBPACK_IMPORTED_MODULE_3__["partners"].map(function (_ref) {
+    var name = _ref.name,
+        website = _ref.website,
+        start = _ref.start,
+        picture = _ref.picture;
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+      width: [0.8, 0.7, 0.6, 0.5],
+      ml: "auto",
+      mr: "auto",
+      mt: 20,
+      mb: 40,
+      className: "schools",
+      key: name,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 17
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
+      flexDirection: "row",
+      flexWrap: "wrap",
+      justifyContent: "center",
+      alignItems: "center",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+      width: [0.8, 0.2],
+      mr: "10px",
+      ml: "10px",
+      mb: "10px",
+      className: "schools-img",
+      style: {
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center'
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
+      src: picture,
+      alt: "",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20
+      },
+      __self: this
+    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+      width: [0.8, 0.7],
+      className: "schools-info",
+      mr: "10px",
+      ml: "10px",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 22
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 23
+      },
+      __self: this
+    }, name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: website,
+      target: "_blank",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24
+      },
+      __self: this
+    }, "School Website \u2192")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25
+      },
+      __self: this
+    }, start))));
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (History);
+
+/***/ }),
+
+/***/ "./components/history/history.json":
+/*!*****************************************!*\
+  !*** ./components/history/history.json ***!
+  \*****************************************/
+/*! exports provided: partners, default */
+/***/ (function(module) {
+
+module.exports = {"partners":[{"name":"Kipp Sunnyside","website":"https://www.kipp.org/school/kipp-sunnyside-high-school/","start":"Partner since 2018","picture":"../../static/kipp.png"},{"name":"Worthing High School","website":"https://www.houstonisd.org/worthing","start":"Partner since 2019","picture":"../../static/worthing.png"}]};
+
+/***/ }),
+
 /***/ "./components/homepage/homepage.js":
 /*!*****************************************!*\
   !*** ./components/homepage/homepage.js ***!
@@ -90,8 +391,15 @@ var _jsxFileName = "/Users/rithikjain/Desktop/Remix-CS-Website/components/homepa
 
 var Homepage = function Homepage() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "home-page",
+    id: "home-page",
     marginTop: "10px",
+    style: {
+      backgroundImage: 'url(../../static/background.png)',
+      backgroundRepeat: 'no-repeat',
+      backgroundSize: 'cover',
+      backgroundPosition: 'left bottom',
+      backgroundAttachment: 'fixed'
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
@@ -106,7 +414,7 @@ var Homepage = function Homepage() {
     justifyContent: "flex-end",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 12
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -114,7 +422,7 @@ var Homepage = function Homepage() {
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 13
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
@@ -125,7 +433,7 @@ var Homepage = function Homepage() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 14
     },
     __self: this
   }, "Sponsored by", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -135,7 +443,7 @@ var Homepage = function Homepage() {
     ml: "10px",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 18
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
@@ -145,19 +453,19 @@ var Homepage = function Homepage() {
     mr: "auto",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 21
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 22
     },
     __self: this
   }, "Grow"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 23
     },
     __self: this
   }, "Our mission is to provide a platform for CS outreach to the greater Houston K-12 community to inspire future computer scientists of all backgrounds, specifically underrepresented minorities in CS. For more information about our volunteer work, please click ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -165,37 +473,113 @@ var Homepage = function Homepage() {
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 25
     },
     __self: this
   }, "here"), "."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 27
     },
     __self: this
   }, "Learn"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 28
     },
     __self: this
   }, "Our curriculum is designed to teach foundational python programming skills, as well as provide an introduction to concepts fundamental to computer science as a whole."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 31
     },
     __self: this
   }, "Inspire"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 32
     },
     __self: this
   }, "We're a group of Rice University student volunteers whose goal is to introduce high school students to computer science and the college application process. We hope that our mentorship program can inspire the next generation of innovators and leaders.")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Homepage);
+
+/***/ }),
+
+/***/ "./components/mentors/mentors.js":
+/*!***************************************!*\
+  !*** ./components/mentors/mentors.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.js");
+/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _mentors_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./mentors.css */ "./components/mentors/mentors.css");
+/* harmony import */ var _mentors_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_mentors_css__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "/Users/rithikjain/Desktop/Remix-CS-Website/components/mentors/mentors.js";
+
+
+
+
+var Mentors = function Mentors() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+    id: "mentors",
+    width: [0.9, 0.8, 0.7, 0.6],
+    ml: "auto",
+    mr: "auto",
+    mt: "30px",
+    style: {
+      backgroundColor: '#f2fffa'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "mentors-header",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, "Mentors"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, "We are currently accepting mentor applications until 11:59 PM CST on Friday, September 10!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "links",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://forms.gle/hcoJEk1mfxEfGmDN9",
+    target: "_blank",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, "Apply Here!"))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Mentors);
 
 /***/ }),
 
@@ -266,6 +650,8 @@ function (_react$Component) {
   }, {
     key: "render",
     value: function render() {
+      var _this2 = this;
+
       return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         style: {
           display: 'inline-block'
@@ -276,7 +662,7 @@ function (_react$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_9__["Flex"], {
-        className: "mobile-header",
+        id: "mobile-header",
         alignItems: "center",
         __source: {
           fileName: _jsxFileName,
@@ -286,7 +672,7 @@ function (_react$Component) {
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
         onClick: this.toggleNavbar,
         className: "show-navbar",
-        src: "../../static/burger.png",
+        src: "../../static/burger.svg",
         alt: "+",
         width: "35px",
         __source: {
@@ -294,7 +680,14 @@ function (_react$Component) {
           lineNumber: 26
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: "/#home-page",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 27
@@ -306,7 +699,7 @@ function (_react$Component) {
           lineNumber: 27
         },
         __self: this
-      }, "CS"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_9__["Flex"], {
+      }, "CS")))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_9__["Flex"], {
         className: this.state.hidden ? 'navbar-wrapper-hidden' : 'navbar-wrapper-visible',
         justifyContent: "space-between",
         alignItems: "center",
@@ -315,8 +708,16 @@ function (_react$Component) {
           lineNumber: 29
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
-        className: "remix-name",
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        href: "/#home-page",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
+        id: "remix-name",
+        className: "navbar-link-name",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 30
@@ -328,7 +729,7 @@ function (_react$Component) {
           lineNumber: 30
         },
         __self: this
-      }, "CS")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+      }, "CS"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: "navbar",
         __source: {
           fileName: _jsxFileName,
@@ -338,7 +739,7 @@ function (_react$Component) {
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
         className: "hide-navbar",
         onClick: this.toggleNavbar,
-        src: "../../static/x.png",
+        src: "../../static/x.svg",
         alt: "X",
         width: "20px",
         __source: {
@@ -350,6 +751,7 @@ function (_react$Component) {
         var name = _ref.name,
             link = _ref.link;
         return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+          onClick: _this2.toggleNavbar,
           key: name,
           className: "navbar-link",
           __source: {
@@ -390,7 +792,213 @@ function (_react$Component) {
 /*! exports provided: navbarItems, default */
 /***/ (function(module) {
 
-module.exports = {"navbarItems":[{"name":"Home","link":"/"},{"name":"Mentorship","link":"/mentorship"},{"name":"Curriculum","link":"/curriculum"},{"name":"Partnerships","link":"/partnerships"},{"name":"Resources","link":"/resources"},{"name":"Contact","link":"/contact"}]};
+module.exports = {"navbarItems":[{"name":"Our Program","link":"/#our-program"},{"name":"Curriculum","link":"/#curriculum"},{"name":"Mentors","link":"/#mentors"},{"name":"History","link":"/#history"},{"name":"Contact","link":"/#contact"}]};
+
+/***/ }),
+
+/***/ "./components/program/program.js":
+/*!***************************************!*\
+  !*** ./components/program/program.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Program; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.js");
+/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _program_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./program.css */ "./components/program/program.css");
+/* harmony import */ var _program_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_program_css__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "/Users/rithikjain/Desktop/Remix-CS-Website/components/program/program.js";
+
+
+
+function Program() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+    id: "our-program",
+    style: {
+      backgroundColor: '#f2fffa'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+    className: "program-page",
+    mt: 30,
+    style: {
+      marginTop: '0'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, "Our Program"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, "September - November 2021"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "program-description",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, "This fall, we will be hosting a mentorship program for students interested in Computer Science and related fields. Students will be put into groups led Rice Computer Science students. Students and mentors will meet for 1 hour per week for 8 weeks. Based on your availability, we will schedule a time that works for you, your group, and your mentors. If you have any questions, please reach out to riceremixcs@gmail.com."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "program-description",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, "Registration is now open. Sign up by 11:59 PM CST on Friday, September 10!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "links",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://forms.gle/ecRL6UJ3njvPbpA39",
+    target: "_blank",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, "Register Here!")))));
+}
+
+/***/ }),
+
+/***/ "./components/tracks/tracks.js":
+/*!*************************************!*\
+  !*** ./components/tracks/tracks.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _tracks_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./tracks.css */ "./components/tracks/tracks.css");
+/* harmony import */ var _tracks_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_tracks_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.js");
+/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _tracks_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./tracks.json */ "./components/tracks/tracks.json");
+var _tracks_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./tracks.json */ "./components/tracks/tracks.json", 1);
+var _jsxFileName = "/Users/rithikjain/Desktop/Remix-CS-Website/components/tracks/tracks.js";
+
+
+
+
+
+var Tracks = function Tracks() {
+  var trackComponents = [];
+
+  for (var i = 0; i < _tracks_json__WEBPACK_IMPORTED_MODULE_3__["tracks"].length; i++) {
+    trackComponents.push(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
+      className: "track",
+      width: [0.8, 0.7, 0.6, 0.5],
+      ml: "auto",
+      mr: "auto",
+      key: i,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 9
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 10
+      },
+      __self: this
+    }, _tracks_json__WEBPACK_IMPORTED_MODULE_3__["tracks"][i].title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 11
+      },
+      __self: this
+    }, "Experience Needed: ", _tracks_json__WEBPACK_IMPORTED_MODULE_3__["tracks"][i].experience), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 12
+      },
+      __self: this
+    }, _tracks_json__WEBPACK_IMPORTED_MODULE_3__["tracks"][i].description)));
+  }
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "curriculum",
+    style: {
+      backgroundImage: 'url(../../static/background.png)',
+      backgroundRepeat: 'no-repeat',
+      backgroundSize: 'cover',
+      backgroundPosition: 'left bottom',
+      backgroundAttachment: 'fixed'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "curriculum-header",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, "Curriculum"), trackComponents, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "legacyLink",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, "Click ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "/curriculum",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, "here"), " to view curriculum from past years!"));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Tracks);
+
+/***/ }),
+
+/***/ "./components/tracks/tracks.json":
+/*!***************************************!*\
+  !*** ./components/tracks/tracks.json ***!
+  \***************************************/
+/*! exports provided: tracks, default */
+/***/ (function(module) {
+
+module.exports = {"tracks":[{"title":"Tour of Tech","experience":"None","description":"Ever wonder how self-driving cars work? Or what it’s like to work at a company like Google? Technology and computer science is an extremely broad field. This track will provide you with an overview of it. You’ll learn more about different career paths within technology and various popular topics in technology (i.e., artificial intelligence, self-driving cars, how social media works, tech ethics). Your mentors will also serve as a resource for you to ask any questions you have about what it’s like to major in a tech-related field like computer science, how to get research/internship experience, and anything else you’re curious about."},{"title":"Programming In Python","experience":"None","description":"Python is a very adaptable programming language that is used in a wide variety of applications from building web servers to AI. This track will be an introduction to programming in Python and will give you hands on experience through completing a couple of introductory projects. You will have the opportunity to learn about the basic data structures and features of the language and learn the skills to solve further problems using Python."},{"title":"World of Web Development","experience":"None but helps to have basic knowledge of HTML and JavaScript","description":"Whether it’s to connect with friends or order a pizza, people use websites everyday. But have you ever wondered what happens behind the scenes when you open a website or how to make one yourself? In this course, you will learn how to build a website using React, a popular framework for web development that is used across the industry by companies such as Netflix, Facebook, and Airbnb. By the end of this course, you will have your own personal website to showcase and the set of skills you’ll need to create many more in the future."}]};
 
 /***/ }),
 
@@ -15580,7 +16188,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_homepage_homepage__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/homepage/homepage */ "./components/homepage/homepage.js");
 /* harmony import */ var _page_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./page.css */ "./pages/page.css");
 /* harmony import */ var _page_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_page_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _components_program_program__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/program/program */ "./components/program/program.js");
+/* harmony import */ var _components_tracks_tracks__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/tracks/tracks */ "./components/tracks/tracks.js");
+/* harmony import */ var _components_history_history__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/history/history */ "./components/history/history.js");
+/* harmony import */ var _components_mentors_mentors__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/mentors/mentors */ "./components/mentors/mentors.js");
+/* harmony import */ var _components_contact_contact__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/contact/contact */ "./components/contact/contact.js");
 var _jsxFileName = "/Users/rithikjain/Desktop/Remix-CS-Website/pages/index.js";
+
+
+
+
+
 
 
 
@@ -15591,25 +16209,55 @@ var Home = function Home() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 12
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_header__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 13
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_navbar_navbar__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 14
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_homepage_homepage__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 15
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_program_program__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_tracks_tracks__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_mentors_mentors__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_history_history__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_contact_contact__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
     },
     __self: this
   }));
@@ -15619,7 +16267,7 @@ var Home = function Home() {
 
 /***/ }),
 
-/***/ 0:
+/***/ 4:
 /*!**************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Frithikjain%2FDesktop%2FRemix-CS-Website%2Fpages%2Findex.js ***!
   \**************************************************************************************************************************************/
@@ -15642,5 +16290,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[4,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
