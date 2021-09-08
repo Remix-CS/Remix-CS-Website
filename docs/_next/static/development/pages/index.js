@@ -16267,7 +16267,7 @@ var Home = function Home() {
 
 /***/ }),
 
-/***/ 4:
+/***/ 0:
 /*!**************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Frithikjain%2FDesktop%2FRemix-CS-Website%2Fpages%2Findex.js ***!
   \**************************************************************************************************************************************/
@@ -16290,5 +16290,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
