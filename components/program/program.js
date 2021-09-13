@@ -21,7 +21,7 @@ export default function Program() {
                     we will schedule a time that works for you, your group, and your mentors.
                 If you have any questions, please reach out to riceremixcs@gmail.com.</p>
 
-                <p className='program-description'>Registration is now open. Sign up by 11:59 PM CST on Friday, September 10!</p>
+                <p className='program-description'>Registration is now open. Sign up by 11:59 PM CST on Friday, September 17!</p>
 
                 <div className='links'>
                     <a href='https://forms.gle/ecRL6UJ3njvPbpA39' target='_blank'><h3>Register Here!</h3></a>
