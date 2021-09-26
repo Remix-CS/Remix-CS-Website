@@ -1279,7 +1279,7 @@ module.exports = function (NAME, wrapper, methods, common, IS_MAP, IS_WEAK) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-var core = module.exports = { version: '2.6.9' };
+var core = module.exports = { version: '2.6.12' };
 if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 
 
@@ -2480,7 +2480,7 @@ var store = global[SHARED] || (global[SHARED] = {});
 })('versions', []).push({
   version: core.version,
   mode: __webpack_require__(/*! ./_library */ "./node_modules/core-js/library/modules/_library.js") ? 'pure' : 'global',
-  copyright: '© 2019 Denis Pushkarev (zloirock.ru)'
+  copyright: '© 2020 Denis Pushkarev (zloirock.ru)'
 });
 
 
@@ -3908,23 +3908,23 @@ var styles = {
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_1aef2d0bbc0d334d831c ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_bddb6eed8fbd46b918fd ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_1aef2d0bbc0d334d831c */ "dll-reference dll_1aef2d0bbc0d334d831c"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_bddb6eed8fbd46b918fd */ "dll-reference dll_bddb6eed8fbd46b918fd"))("./node_modules/react/index.js");
 
 /***/ }),
 
-/***/ "dll-reference dll_1aef2d0bbc0d334d831c":
+/***/ "dll-reference dll_bddb6eed8fbd46b918fd":
 /*!*******************************************!*\
-  !*** external "dll_1aef2d0bbc0d334d831c" ***!
+  !*** external "dll_bddb6eed8fbd46b918fd" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_1aef2d0bbc0d334d831c;
+module.exports = dll_bddb6eed8fbd46b918fd;
 
 /***/ })
 
