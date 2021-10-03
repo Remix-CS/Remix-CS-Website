@@ -51,3 +51,12 @@
 #mentors a:hover {
     color: #000;
 }
+
+#mentors h2 {
+    text-align: center;
+    color: #525252;
+}
+
+.mentors-img img {
+    border-radius: 5px;
+}

@@ -647,13 +647,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _mentors_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./mentors.css */ "./components/mentors/mentors.css");
 /* harmony import */ var _mentors_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_mentors_css__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/rithikjain/Desktop/Remix-CS-Website/components/mentors/mentors.js";
+/* harmony import */ var _mentors_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./mentors.json */ "./components/mentors/mentors.json");
+var _mentors_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./mentors.json */ "./components/mentors/mentors.json", 1);
+var _this = undefined,
+    _jsxFileName = "/Users/rithikjain/Desktop/Remix-CS-Website/components/mentors/mentors.js";
+
+
 
 
 
 
 var Mentors = function Mentors() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
     id: "mentors",
     width: [0.9, 0.8, 0.7, 0.6],
     ml: "auto",
@@ -662,28 +667,128 @@ var Mentors = function Mentors() {
     style: {
       backgroundColor: '#f2fffa'
     },
+    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+      lineNumber: 6,
+      columnNumber: 5
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "mentors-header",
+    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, "Mentors"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      lineNumber: 7,
+      columnNumber: 9
+    }
+  }, "Mentors"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "meet",
+    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 8,
+      columnNumber: 9
+    }
+  }, "Meet Our Mentors!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'space-around',
+      flexWrap: 'wrap',
+      margin: 'auto',
+      width: '80%'
     },
-    __self: this
-  }, "Mentor applications for fall 2021 are closed. Check back next spring for updates!"));
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 9
+    }
+  }, _mentors_json__WEBPACK_IMPORTED_MODULE_3__["mentors"].map(function (_ref) {
+    var name = _ref.name,
+        picture = _ref.picture;
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+      width: [0.6, 0.5, 0.4, 0.3],
+      ml: "auto",
+      mr: "auto",
+      mt: "30px",
+      className: "meetMentors",
+      key: name,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 12,
+        columnNumber: 17
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
+      flexDirection: "column",
+      flexWrap: "wrap",
+      justifyContent: "center",
+      alignItems: "center",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 13,
+        columnNumber: 21
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+      className: "mentors-img",
+      width: [0.8, 0.5],
+      style: {
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center'
+      },
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 14,
+        columnNumber: 25
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
+      src: picture,
+      alt: "",
+      style: {
+        margin: '5px'
+      },
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 15,
+        columnNumber: 29
+      }
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+      width: [0.8, 0.6],
+      className: "mentors-bio",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 17,
+        columnNumber: 25
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18,
+        columnNumber: 29
+      }
+    }, name))));
+  })));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Mentors);
+
+/***/ }),
+
+/***/ "./components/mentors/mentors.json":
+/*!*****************************************!*\
+  !*** ./components/mentors/mentors.json ***!
+  \*****************************************/
+/*! exports provided: mentors, default */
+/***/ (function(module) {
+
+module.exports = {"mentors":[{"name":"Anna Bai","picture":"/static/mentors/alb21.jpg"},{"name":"Christina Wong","picture":"/static/mentors/cew8.jpg"},{"name":"Chacko Mathai","picture":"/static/mentors/cm92.jpg"},{"name":"Emma Chipman","picture":"/static/mentors/emc9.jpg"},{"name":"JaeWon Jung","picture":"/static/mentors/jj85.jpg"},{"name":"Kevin Hernandez","picture":"/static/mentors/kh78.jpg"},{"name":"Megan Xiao","picture":"/static/mentors/mcx1.jpg"},{"name":"Michelle Lee","picture":"/static/mentors/mhl6.jpg"},{"name":"Rachel Wang","picture":"/static/mentors/raw8.jpg"},{"name":"Rashi Bose","picture":"/static/mentors/rb63.jpg"},{"name":"Rob Gonzalez","picture":"/static/mentors/rhg1.jpg"}]};
 
 /***/ }),
 
