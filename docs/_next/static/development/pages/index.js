@@ -1063,7 +1063,7 @@ function Program() {
       lineNumber: 12,
       columnNumber: 17
     }
-  }, "February - November 2022"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "February 28 - April 22, 2022"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "program-description",
     __self: this,
     __source: {
@@ -1071,7 +1071,7 @@ function Program() {
       lineNumber: 15,
       columnNumber: 17
     }
-  }, "This spring, we will be hosting a mentorship program for students interested in Computer Science and related fields. Students will be put into groups led Rice Computer Science students. Students and mentors will meet for 1 hour per week for 8 weeks. Based on your availability, we will schedule a time that works for you, your group, and your mentors. If you have any questions, please reach out to riceremixcs@gmail.com."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "This spring, we will be hosting a mentorship program for students interested in Computer Science and related fields. Students will be put into groups led Rice Computer Science students. Students and mentors will meet for 1 hour per week for 7 weeks. Based on your availability, we will schedule a time that works for you, your group, and your mentors. If you have any questions, please reach out to riceremixcs@gmail.com."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "program-description",
     __self: this,
     __source: {

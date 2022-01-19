@@ -1,3 +1,49 @@
+#legacy-curriculum {
+    padding: 40px 0 40px 0;
+    margin: 30px 0 0 0;
+    width: 100%;
+    scroll-margin-top: 50px;
+}
+
+#legacy-curriculum .curriculum-header {
+    font-weight: normal;
+    color: #000;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5px;
+    padding-bottom: 25px;
+}
+
+.module {
+    border-radius: 5px;
+    border: #919191 1px solid;
+    padding: 10px 20px;
+}
+
+.module h2 {
+    margin: 5px;
+    font-weight: normal;
+    color: #525252;
+}
+
+.module a {
+    color: #636363;
+    font-weight: normal;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+
+.module a h3 {
+    font-weight: normal;
+    margin-left: 30px;
+}
+
+.module a:hover {
+    color: #000;
+}
+
 #home-page {
     margin: 0px;
     padding-top: 80px;
@@ -381,49 +427,3 @@
 .contact-img img {
     border-radius: 5px;
 }
-#legacy-curriculum {
-    padding: 40px 0 40px 0;
-    margin: 30px 0 0 0;
-    width: 100%;
-    scroll-margin-top: 50px;
-}
-
-#legacy-curriculum .curriculum-header {
-    font-weight: normal;
-    color: #000;
-    text-align: center;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0.5px;
-    padding-bottom: 25px;
-}
-
-.module {
-    border-radius: 5px;
-    border: #919191 1px solid;
-    padding: 10px 20px;
-}
-
-.module h2 {
-    margin: 5px;
-    font-weight: normal;
-    color: #525252;
-}
-
-.module a {
-    color: #636363;
-    font-weight: normal;
-    text-decoration: none;
-    transition: 0.2s ease-in-out;
-}
-
-.module a h3 {
-    font-weight: normal;
-    margin-left: 30px;
-}
-
-.module a:hover {
-    color: #000;
-}
-
