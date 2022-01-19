@@ -1063,7 +1063,7 @@ function Program() {
       lineNumber: 12,
       columnNumber: 17
     }
-  }, "September - November 2021"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "February - November 2022"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "program-description",
     __self: this,
     __source: {
@@ -1071,7 +1071,7 @@ function Program() {
       lineNumber: 15,
       columnNumber: 17
     }
-  }, "This fall, we will be hosting a mentorship program for students interested in Computer Science and related fields. Students will be put into groups led Rice Computer Science students. Students and mentors will meet for 1 hour per week for 8 weeks. Based on your availability, we will schedule a time that works for you, your group, and your mentors. If you have any questions, please reach out to riceremixcs@gmail.com."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "This spring, we will be hosting a mentorship program for students interested in Computer Science and related fields. Students will be put into groups led Rice Computer Science students. Students and mentors will meet for 1 hour per week for 8 weeks. Based on your availability, we will schedule a time that works for you, your group, and your mentors. If you have any questions, please reach out to riceremixcs@gmail.com."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "program-description",
     __self: this,
     __source: {
@@ -1079,7 +1079,16 @@ function Program() {
       lineNumber: 24,
       columnNumber: 17
     }
-  }, "Registration is closed for our fall program. Check back next spring for updates!")));
+  }, "Click ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://forms.gle/XXQP3pANjLUXPi7k8",
+    target: "_blank",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 58
+    }
+  }, "here"), " to sign up!")));
 }
 
 /***/ }),
