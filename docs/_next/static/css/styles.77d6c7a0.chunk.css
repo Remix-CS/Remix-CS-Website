@@ -320,7 +320,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 0.5px;
-    padding-bottom: 25px;
+    padding-bottom: 0px;
 }
 
 #mentors p {
@@ -330,7 +330,7 @@
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0px;
+    margin-bottom: 30px;
     margin-top: 0.5px;
 }
 
@@ -353,6 +353,10 @@
     padding: 10px;
     border-radius: 5px;
     border: #919191 1px solid;
+}
+
+#mentors a {
+    text-decoration: underline;
 }
 
 #mentors a:hover {

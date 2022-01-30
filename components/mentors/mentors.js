@@ -5,6 +5,7 @@ import { mentors } from './mentors.json';
 const Mentors = () => (
     <Box id='mentors' width={[0.9, 0.8, 0.7, 0.6]} ml='auto' mr='auto' mt='30px' style={{backgroundColor: '#f2fffa'}}>
         <h1 className='mentors-header'>Mentors</h1>
+        <p>Click <a href='https://forms.gle/y2g6Q2f365bgebvr9' target='_blank'>here</a> to apply to be a RemixCS mentor!</p>
         <h2 id="meet">Meet Our Mentors!</h2>
         <div style={{display: 'flex', alignItems: 'center', justifyContent: 'space-around', flexWrap: 'wrap', margin: 'auto', width: '80%'}}>
         {
