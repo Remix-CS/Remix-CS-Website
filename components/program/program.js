@@ -10,20 +10,19 @@ export default function Program() {
             {/* Title */}
             <Box className='program-page' mt={30} style={{marginTop: '0'}}>
                 <h1>Our Program</h1>
-                <h2>February 28 - April 24, 2022</h2>
-                <h3>(with mid-semester break March 12 - 20)</h3>
+                <h2>September 26 - December 2, 2022</h2>
+                <h3>(with breaks for the weeks of October 10 - 14 and November 21 - 25)</h3>
 
                 {/* Description */}
                 <p className='program-description'>
-                    This spring, we
+                    This fall, we
                     will be hosting a mentorship program for students interested
-                    in Computer Science and related fields. Students will be put into
-                    groups led Rice Computer Science students. Students and mentors will
-                    meet for 1 hour per week for 7 weeks. Based on your availability,
-                    we will schedule a time that works for you, your group, and your mentors.
+                    in computer science and related fields. Students will be put into
+                    groups led Rice computer science students. Students and mentors will
+                    meet for 1 hour per week for 7 weeks.
                 If you have any questions, please reach out to riceremixcs@gmail.com.</p>
 
-                <p className='program-description'>Click <a href='https://forms.gle/XXQP3pANjLUXPi7k8' target='_blank'>here</a> to sign up!</p>
+                <p className='program-description'>Click <a href='https://forms.gle/ErHdJvwTAzai9G7DA' target='_blank'>here</a> to fill out our interest form!</p>
             </Box>
 
             <h2 id="testimonialsHeader">Testimonials</h2>

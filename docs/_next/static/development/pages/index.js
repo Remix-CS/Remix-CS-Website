@@ -139,7 +139,7 @@ var Contact = function Contact() {
 /*! exports provided: leadership, default */
 /***/ (function(module) {
 
-module.exports = {"leadership":[{"name":"Angie Chen","position":"RemixCS Chair","email":"axc1@rice.edu","year":"2022","picture":"/static/axc1.png"},{"name":"Prashanth Pai","position":"External VP","email":"pbp2@rice.edu","year":"2022","picture":"/static/pbp2.png"},{"name":"Venus Alemanji","position":"External VP","email":"va23@rice.edu","year":"2022","picture":"/static/va23.png"},{"name":"Lauryn Tuo","position":"Internal VP","email":"lt31@rice.edu","year":"2024","picture":"/static/lt31.png"},{"name":"Vivian Ellis","position":"Internal VP","email":"vce1@rice.edu","year":"2023","picture":"/static/vce1.png"},{"name":"John Shieh","position":"Curriculum Head","email":"jcs17@rice.edu","year":"2023","picture":"/static/jcs17.png"},{"name":"Rithik Jain","position":"Webmaster","email":"rj34@rice.edu","year":"2024","picture":"/static/rj34.png"}]};
+module.exports = {"leadership":[{"name":"Lauryn Tuo","position":"RemixCS Chair","email":"lt31@rice.edu","year":"2024","picture":"/static/lt31.png"},{"name":"John Shieh","position":"External VP","email":"jcs17@rice.edu","year":"2023","picture":"/static/jcs17.png"},{"name":"Rob Gonzalez","position":"External VP","email":"rhg1@rice.edu","year":"2023","picture":"/static/rhg1.png"},{"name":"Rithik Jain","position":"Internal VP","email":"rj34@rice.edu","year":"2024","picture":"/static/rj34.png"},{"name":"Mason LaFerney","position":"Internal VP","email":"mll4@rice.edu","year":"2024","picture":"/static/mll4.png"}]};
 
 /***/ }),
 
@@ -597,24 +597,15 @@ var Mentors = function Mentors() {
       lineNumber: 8,
       columnNumber: 9
     }
-  }, "Click ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://forms.gle/y2g6Q2f365bgebvr9",
-    target: "_blank",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8,
-      columnNumber: 18
-    }
-  }, "here"), " to apply to be a RemixCS mentor!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+  }, "Check back soon for our fall 2022 mentor application!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     id: "meet",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
+      lineNumber: 10,
       columnNumber: 9
     }
-  }, "Meet Our Mentors!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Meet Our Past Mentors!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     style: {
       display: 'flex',
       alignItems: 'center',
@@ -626,7 +617,7 @@ var Mentors = function Mentors() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10,
+      lineNumber: 11,
       columnNumber: 9
     }
   }, _mentors_json__WEBPACK_IMPORTED_MODULE_3__["mentors"].map(function (_ref) {
@@ -642,7 +633,7 @@ var Mentors = function Mentors() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 13,
+        lineNumber: 14,
         columnNumber: 17
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
@@ -653,7 +644,7 @@ var Mentors = function Mentors() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 14,
+        lineNumber: 15,
         columnNumber: 21
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
@@ -667,7 +658,7 @@ var Mentors = function Mentors() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 15,
+        lineNumber: 16,
         columnNumber: 25
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -679,7 +670,7 @@ var Mentors = function Mentors() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 16,
+        lineNumber: 17,
         columnNumber: 29
       }
     })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
@@ -688,14 +679,14 @@ var Mentors = function Mentors() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18,
+        lineNumber: 19,
         columnNumber: 25
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 19,
+        lineNumber: 20,
         columnNumber: 29
       }
     }, name))));
@@ -713,7 +704,7 @@ var Mentors = function Mentors() {
 /*! exports provided: mentors, default */
 /***/ (function(module) {
 
-module.exports = {"mentors":[{"name":"Anna Bai","picture":"/static/mentors/alb21.jpg"},{"name":"Christina Wong","picture":"/static/mentors/cew8.jpg"},{"name":"Chacko Mathai","picture":"/static/mentors/cm92.jpg"},{"name":"Emma Chipman","picture":"/static/mentors/emc9.jpg"},{"name":"JaeWon Jung","picture":"/static/mentors/jj85.jpg"},{"name":"Kevin Hernandez","picture":"/static/mentors/kh78.jpg"},{"name":"Megan Xiao","picture":"/static/mentors/mcx1.jpg"},{"name":"Michelle Lee","picture":"/static/mentors/mhl6.jpg"},{"name":"Rachel Wang","picture":"/static/mentors/raw8.jpg"},{"name":"Rashi Bose","picture":"/static/mentors/rb63.jpg"},{"name":"Rob Gonzalez","picture":"/static/mentors/rhg1.jpg"}]};
+module.exports = {"mentors":[{"name":"Brian Xu","picture":"/static/mentors/bzx1.jpg"},{"name":"Bryant Cassady","picture":"/static/mentors/jbc8.jpg"},{"name":"Christina Wong","picture":"/static/mentors/cew8.jpg"},{"name":"Christine Zhao","picture":"/static/mentors/cyz1.jpg"},{"name":"Emma Chipman","picture":"/static/mentors/emc9.jpg"},{"name":"Evan Stegall","picture":"/static/mentors/ers11.jpg"},{"name":"Jennifer Adams","picture":"/static/mentors/ja60.jpg"},{"name":"Justin Kim","picture":"/static/mentors/jmk16.jpg"},{"name":"Katharine Bonilla","picture":"/static/mentors/kjb15.jpg"},{"name":"Lauren Hu","picture":"/static/mentors/lh48.jpg"},{"name":"Mason LaFerney","picture":"/static/mentors/mll4.jpg"},{"name":"Megan Xiao","picture":"/static/mentors/mcx1.jpg"},{"name":"Michael Tang","picture":"/static/mentors/mjt6.jpg"},{"name":"Rachel Wang","picture":"/static/mentors/raw8.jpg"},{"name":"Rob Gonzalez","picture":"/static/mentors/rhg1.jpg"},{"name":"Steve Jiang","picture":"/static/mentors/bj22.jpg"},{"name":"Talia Frindell","picture":"/static/mentors/taf5.jpg"},{"name":"Victor Xie","picture":"/static/mentors/vyx2.jpg"}]};
 
 /***/ }),
 
@@ -991,14 +982,14 @@ function Program() {
       lineNumber: 13,
       columnNumber: 17
     }
-  }, "February 28 - April 24, 2022"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+  }, "September 26 - December 2, 2022"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14,
       columnNumber: 17
     }
-  }, "(with mid-semester break March 12 - 20)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "(with breaks for the weeks of October 10 - 14 and November 21 - 25)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "program-description",
     __self: this,
     __source: {
@@ -1006,29 +997,29 @@ function Program() {
       lineNumber: 17,
       columnNumber: 17
     }
-  }, "This spring, we will be hosting a mentorship program for students interested in Computer Science and related fields. Students will be put into groups led Rice Computer Science students. Students and mentors will meet for 1 hour per week for 7 weeks. Based on your availability, we will schedule a time that works for you, your group, and your mentors. If you have any questions, please reach out to riceremixcs@gmail.com."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "This fall, we will be hosting a mentorship program for students interested in computer science and related fields. Students will be put into groups led Rice computer science students. Students and mentors will meet for 1 hour per week for 7 weeks. If you have any questions, please reach out to riceremixcs@gmail.com."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "program-description",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 25,
       columnNumber: 17
     }
   }, "Click ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://forms.gle/XXQP3pANjLUXPi7k8",
+    href: "https://forms.gle/ErHdJvwTAzai9G7DA",
     target: "_blank",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 25,
       columnNumber: 58
     }
-  }, "here"), " to sign up!")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+  }, "here"), " to fill out our interest form!")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     id: "testimonialsHeader",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 28,
       columnNumber: 13
     }
   }, "Testimonials"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -1036,7 +1027,7 @@ function Program() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 29,
       columnNumber: 13
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_responsive_carousel__WEBPACK_IMPORTED_MODULE_3__["Carousel"], {
@@ -1048,7 +1039,7 @@ function Program() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 30,
       columnNumber: 17
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -1056,14 +1047,14 @@ function Program() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 31,
       columnNumber: 21
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 31,
       columnNumber: 50
     }
   }, "\"Thank you so much for this opportunity. This is an experience I'll definitely remember and I'm glad I attended. The mentors were great and I want them to know they led the meetings wonderfully. I'm actually going to miss the program.\"")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -1071,14 +1062,14 @@ function Program() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 32,
       columnNumber: 21
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 32,
       columnNumber: 50
     }
   }, "\"My mentors took into consideration what we wanted to learn... The flexibility of the lessons were really enjoyable.\"")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -1086,14 +1077,14 @@ function Program() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 33,
       columnNumber: 21
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 33,
       columnNumber: 50
     }
   }, "\"I liked learning about what the CS major entailed, the different fields of the IT industry, and what the college application process is like. Hearing directly from college students helped a lot with setting my mind into preparing for the college application process. These sessions also helped me pinpoint what I plan to do with a CS major. It was really informative!\"")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -1101,14 +1092,14 @@ function Program() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 34,
       columnNumber: 21
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 34,
       columnNumber: 50
     }
   }, "\"Cool college people!\"")))));
